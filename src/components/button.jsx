@@ -1,7 +1,25 @@
-import React from 'react'
+import React from "react";
 
-export default function button() {
+// Destructure props directly in the function parameters
+const Button = ({ label, onClick, type = "button", style = {} }) => {
   return (
-    <div>button</div>
-  )
-}
+    <button
+      type={type}
+      onClick={onClick}
+      style={{
+        padding: "10px 20px",
+        borderRadius: "5px",
+        border: "none",
+        cursor: "pointer",
+        backgroundColor: "#4CAF50",
+        color: "#fff",
+        fontSize: "16px",
+        ...style, // Merge custom styles passed via props
+      }}
+    >
+      {label}
+    </button>
+  );
+};
+
+export default Button;
