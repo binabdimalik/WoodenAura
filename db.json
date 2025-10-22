@@ -1,0 +1,904 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Velvet Lounge Chair",
+      "price": 18000,
+      "image": "https://example.com/images/velvet-chair.jpg",
+      "description": "A plush velvet lounge chair with gold accents, ideal for cozy corners.",
+      "category": "Living Room",
+      "stock": 8
+    },
+    {
+      "id": 2,
+      "name": "Leather Sectional Sofa",
+      "price": 52000,
+      "image": "https://example.com/images/leather-sectional.jpg",
+      "description": "Spacious leather sectional with deep cushions and a modern silhouette.",
+      "category": "Living Room",
+      "stock": 5
+    },
+    {
+      "id": 3,
+      "name": "Mid-Century Coffee Table",
+      "price": 14000,
+      "image": "https://example.com/images/midcentury-coffee.jpg",
+      "description": "Walnut coffee table with tapered legs and a sleek finish.",
+      "category": "Living Room",
+      "stock": 10
+    },
+    {
+      "id": 4,
+      "name": "Boho Floor Lamp",
+      "price": 6000,
+      "image": "https://example.com/images/boho-lamp.jpg",
+      "description": "Woven rattan floor lamp with warm ambient lighting.",
+      "category": "Living Room",
+      "stock": 12
+    },
+    {
+      "id": 5,
+      "name": "Tufted Ottoman",
+      "price": 8500,
+      "image": "https://example.com/images/tufted-ottoman.jpg",
+      "description": "Velvet tufted ottoman with hidden storage space.",
+      "category": "Living Room",
+      "stock": 7
+    },
+    {
+      "id": 6,
+      "name": "Recliner Armchair",
+      "price": 22000,
+      "image": "https://example.com/images/recliner-armchair.jpg",
+      "description": "Ergonomic recliner with adjustable back and footrest.",
+      "category": "Living Room",
+      "stock": 6
+    },
+    {
+      "id": 7,
+      "name": "Glass TV Stand",
+      "price": 11000,
+      "image": "https://example.com/images/glass-tv.jpg",
+      "description": "Tempered glass TV stand with chrome accents.",
+      "category": "Living Room",
+      "stock": 9
+    },
+    {
+      "id": 8,
+      "name": "Rustic Wall Shelf",
+      "price": 5000,
+      "image": "https://example.com/images/rustic-shelf.jpg",
+      "description": "Reclaimed wood wall shelf for books and decor.",
+      "category": "Living Room",
+      "stock": 15
+    },
+    {
+      "id": 9,
+      "name": "Contemporary Side Table",
+      "price": 7000,
+      "image": "https://example.com/images/contemporary-side.jpg",
+      "description": "Compact side table with matte black finish.",
+      "category": "Living Room",
+      "stock": 11
+    },
+    {
+      "id": 10,
+      "name": "Fabric Loveseat",
+      "price": 28000,
+      "image": "https://example.com/images/fabric-loveseat.jpg",
+      "description": "Two-seater fabric loveseat with soft cushions.",
+      "category": "Living Room",
+      "stock": 4
+    },
+    {
+      "id": 11,
+      "name": "Industrial Console Table",
+      "price": 16000,
+      "image": "https://example.com/images/industrial-console.jpg",
+      "description": "Metal and wood console table with open shelving.",
+      "category": "Living Room",
+      "stock": 8
+    },
+    {
+      "id": 12,
+      "name": "Patterned Area Rug",
+      "price": 9500,
+      "image": "https://example.com/images/patterned-rug.jpg",
+      "description": "Colorful woven rug to brighten up your space.",
+      "category": "Living Room",
+      "stock": 14
+    },
+    {
+      "id": 13,
+      "name": "Wall-Mounted Bookshelf",
+      "price": 13000,
+      "image": "https://example.com/images/wall-bookshelf.jpg",
+      "description": "Floating bookshelf with minimalist design.",
+      "category": "Living Room",
+      "stock": 6
+    },
+    {
+      "id": 14,
+      "name": "Swivel Lounge Chair",
+      "price": 19500,
+      "image": "https://example.com/images/swivel-chair.jpg",
+      "description": "360-degree swivel chair with faux leather upholstery.",
+      "category": "Living Room",
+      "stock": 5
+    },
+    {
+      "id": 15,
+      "name": "Corner Sofa Set",
+      "price": 58000,
+      "image": "https://example.com/images/corner-sofa.jpg",
+      "description": "L-shaped sofa set with high-density foam cushions.",
+      "category": "Living Room",
+      "stock": 3
+    },
+    {
+      "id": 16,
+      "name": "Vintage Trunk Table",
+      "price": 12500,
+      "image": "https://example.com/images/trunk-table.jpg",
+      "description": "Vintage-style trunk table with brass hardware.",
+      "category": "Living Room",
+      "stock": 7
+    },
+    {
+      "id": 17,
+      "name": "Wall Art Canvas",
+      "price": 4500,
+      "image": "https://example.com/images/wall-art.jpg",
+      "description": "Abstract canvas art to elevate your living room.",
+      "category": "Living Room",
+      "stock": 20
+    },
+    {
+      "id": 18,
+      "name": "Bean Bag Chair",
+      "price": 7500,
+      "image": "https://example.com/images/bean-bag.jpg",
+      "description": "Oversized bean bag chair for casual lounging.",
+      "category": "Living Room",
+      "stock": 10
+    },
+    {
+      "id": 19,
+      "name": "Floating TV Cabinet",
+      "price": 17000,
+      "image": "https://example.com/images/floating-tv.jpg",
+      "description": "Wall-mounted TV cabinet with hidden cable management.",
+      "category": "Living Room",
+      "stock": 6
+    },
+    {
+      "id": 20,
+      "name": "Curved Sofa",
+      "price": 49000,
+      "image": "https://example.com/images/curved-sofa.jpg",
+      "description": "Elegant curved sofa with velvet upholstery.",
+      "category": "Living Room",
+      "stock": 4
+    },
+    {
+      "id": 21,
+      "name": "Marble Side Table",
+      "price": 9500,
+      "image": "https://example.com/images/marble-side.jpg",
+      "description": "Round marble side table with brass legs.",
+      "category": "Living Room",
+      "stock": 9
+    },
+    {
+      "id": 22,
+      "name": "Hanging Chair",
+      "price": 18500,
+      "image": "https://example.com/images/hanging-chair.jpg",
+      "description": "Suspended rattan chair with cozy cushions.",
+      "category": "Living Room",
+      "stock": 3
+    },
+    {
+      "id": 23,
+      "name": "Faux Fur Throw",
+      "price": 3500,
+      "image": "https://example.com/images/faux-fur.jpg",
+      "description": "Soft faux fur throw blanket for added comfort.",
+      "category": "Living Room",
+      "stock": 18
+    },
+    {
+      "id": 24,
+      "name": "Geometric Bookshelf",
+      "price": 14500,
+      "image": "https://example.com/images/geometric-shelf.jpg",
+      "description": "Modern bookshelf with geometric compartments.",
+      "category": "Living Room",
+      "stock": 5
+    },
+    {
+      "id": 25,
+      "name": "Compact Media Unit",
+      "price": 15500,
+      "image": "https://example.com/images/media-unit.jpg",
+      "description": "Space-saving media unit with sliding doors.",
+      "category": "Living Room",
+      "stock": 7
+    },
+    {
+      "id": 26,
+      "name": "Canopy Bed Frame",
+      "price": 38000,
+      "image": "https://example.com/images/canopy-bed.jpg",
+      "description": "Elegant canopy bed with sheer drapes and a mahogany frame.",
+      "category": "Bedroom",
+      "stock": 4
+    },
+    {
+      "id": 27,
+      "name": "Nightstand with Drawer",
+      "price": 9500,
+      "image": "https://example.com/images/nightstand.jpg",
+      "description": "Compact nightstand with a single drawer and open shelf.",
+      "category": "Bedroom",
+      "stock": 10
+    },
+    {
+      "id": 28,
+      "name": "Upholstered Headboard",
+      "price": 12000,
+      "image": "https://example.com/images/headboard.jpg",
+      "description": "Soft fabric headboard with button tufting.",
+      "category": "Bedroom",
+      "stock": 6
+    },
+    {
+      "id": 29,
+      "name": "Double Wardrobe",
+      "price": 28000,
+      "image": "https://example.com/images/wardrobe.jpg",
+      "description": "Spacious wardrobe with hanging and drawer sections.",
+      "category": "Bedroom",
+      "stock": 5
+    },
+    {
+      "id": 30,
+      "name": "Memory Foam Mattress",
+      "price": 22000,
+      "image": "https://example.com/images/mattress.jpg",
+      "description": "Queen-size memory foam mattress with cooling gel.",
+      "category": "Bedroom",
+      "stock": 8
+    },
+    {
+      "id": 31,
+      "name": "Vanity Table Set",
+      "price": 18500,
+      "image": "https://example.com/images/vanity.jpg",
+      "description": "Vanity table with mirror and matching stool.",
+      "category": "Bedroom",
+      "stock": 3
+    },
+    {
+      "id": 32,
+      "name": "Underbed Storage Drawers",
+      "price": 7500,
+      "image": "https://example.com/images/underbed-storage.jpg",
+      "description": "Set of two rolling drawers for underbed storage.",
+      "category": "Bedroom",
+      "stock": 12
+    },
+    {
+      "id": 33,
+      "name": "Bedside Lamp",
+      "price": 4500,
+      "image": "https://example.com/images/bedside-lamp.jpg",
+      "description": "Ceramic lamp with linen shade for soft lighting.",
+      "category": "Bedroom",
+      "stock": 15
+    },
+    {
+      "id": 34,
+      "name": "Dresser with Mirror",
+      "price": 26000,
+      "image": "https://example.com/images/dresser.jpg",
+      "description": "Six-drawer dresser with attached mirror.",
+      "category": "Bedroom",
+      "stock": 4
+    },
+    {
+      "id": 35,
+      "name": "Platform Bed",
+      "price": 31000,
+      "image": "https://example.com/images/platform-bed.jpg",
+      "description": "Low-profile platform bed with built-in slats.",
+      "category": "Bedroom",
+      "stock": 6
+    },
+    {
+      "id": 36,
+      "name": "Hanging Pendant Light",
+      "price": 8500,
+      "image": "https://example.com/images/pendant-light.jpg",
+      "description": "Modern pendant light for ambient bedroom glow.",
+      "category": "Bedroom",
+      "stock": 9
+    },
+    {
+      "id": 37,
+      "name": "Foldable Laundry Hamper",
+      "price": 3000,
+      "image": "https://example.com/images/laundry-hamper.jpg",
+      "description": "Fabric hamper with handles and collapsible frame.",
+      "category": "Bedroom",
+      "stock": 20
+    },
+    {
+      "id": 38,
+      "name": "Wall-Mounted Mirror",
+      "price": 7000,
+      "image": "https://example.com/images/wall-mirror.jpg",
+      "description": "Frameless mirror with beveled edges.",
+      "category": "Bedroom",
+      "stock": 11
+    },
+    {
+      "id": 39,
+      "name": "Tufted Bench",
+      "price": 11000,
+      "image": "https://example.com/images/tufted-bench.jpg",
+      "description": "Bedroom bench with velvet upholstery and storage.",
+      "category": "Bedroom",
+      "stock": 7
+    },
+    {
+      "id": 40,
+      "name": "Curtain Rod Set",
+      "price": 3500,
+      "image": "https://example.com/images/curtain-rod.jpg",
+      "description": "Adjustable curtain rod with decorative finials.",
+      "category": "Bedroom",
+      "stock": 14
+    },
+    {
+      "id": 41,
+      "name": "Floating Nightstand",
+      "price": 9800,
+      "image": "https://example.com/images/floating-nightstand.jpg",
+      "description": "Wall-mounted nightstand with hidden drawer.",
+      "category": "Bedroom",
+      "stock": 6
+    },
+    {
+      "id": 42,
+      "name": "Quilted Bedspread",
+      "price": 6500,
+      "image": "https://example.com/images/bedspread.jpg",
+      "description": "Cotton bedspread with geometric quilting.",
+      "category": "Bedroom",
+      "stock": 13
+    },
+    {
+      "id": 43,
+      "name": "Shoe Rack Cabinet",
+      "price": 12000,
+      "image": "https://example.com/images/shoe-rack.jpg",
+      "description": "Compact shoe cabinet with pull-out drawers.",
+      "category": "Bedroom",
+      "stock": 5
+    },
+    {
+      "id": 44,
+      "name": "Bed Canopy Net",
+      "price": 4000,
+      "image": "https://example.com/images/canopy-net.jpg",
+      "description": "Lightweight net canopy for mosquito protection.",
+      "category": "Bedroom",
+      "stock": 18
+    },
+    {
+      "id": 45,
+      "name": "Wall Organizer",
+      "price": 5200,
+      "image": "https://example.com/images/wall-organizer.jpg",
+      "description": "Fabric wall organizer with multiple pockets.",
+      "category": "Bedroom",
+      "stock": 10
+    },
+    {
+      "id": 46,
+      "name": "Reading Nook Chair",
+      "price": 17500,
+      "image": "https://example.com/images/nook-chair.jpg",
+      "description": "Cozy armchair perfect for reading corners.",
+      "category": "Bedroom",
+      "stock": 4
+    },
+    {
+      "id": 47,
+      "name": "Bedside Tray Table",
+      "price": 5800,
+      "image": "https://example.com/images/tray-table.jpg",
+      "description": "Foldable tray table for breakfast in bed.",
+      "category": "Bedroom",
+      "stock": 9
+    },
+    {
+      "id": 48,
+      "name": "Wall Clock",
+      "price": 4200,
+      "image": "https://example.com/images/wall-clock.jpg",
+      "description": "Minimalist wall clock with silent movement.",
+      "category": "Bedroom",
+      "stock": 16
+    },
+    {
+      "id": 49,
+      "name": "Bedside Organizer Caddy",
+      "price": 3900,
+      "image": "https://example.com/images/bedside-caddy.jpg",
+      "description": "Fabric caddy that hangs off the bed frame.",
+      "category": "Bedroom",
+      "stock": 12
+    },
+    {
+      "id": 50,
+      "name": "Accent Pillow Set",
+      "price": 4800,
+      "image": "https://example.com/images/pillow-set.jpg",
+      "description": "Set of three decorative pillows with covers.",
+      "category": "Bedroom",
+      "stock": 15
+    }
+    {
+      "id": 51,
+      "name": "Oak Dining Table",
+      "price": 27000,
+      "image": "https://example.com/images/oak-dining.jpg",
+      "description": "Solid oak dining table with a natural wood finish.",
+      "category": "Dining",
+      "stock": 6
+    },
+    {
+      "id": 52,
+      "name": "Set of 4 Dining Chairs",
+      "price": 18000,
+      "image": "https://example.com/images/dining-chairs.jpg",
+      "description": "Upholstered dining chairs with curved backs.",
+      "category": "Dining",
+      "stock": 10
+    },
+    {
+      "id": 53,
+      "name": "Glass Top Dining Table",
+      "price": 32000,
+      "image": "https://example.com/images/glass-dining.jpg",
+      "description": "Modern glass dining table with chrome legs.",
+      "category": "Dining",
+      "stock": 4
+    },
+    {
+      "id": 54,
+      "name": "Bench Seating",
+      "price": 15000,
+      "image": "https://example.com/images/dining-bench.jpg",
+      "description": "Wooden bench for casual dining setups.",
+      "category": "Dining",
+      "stock": 7
+    },
+    {
+      "id": 55,
+      "name": "Round Bistro Table",
+      "price": 14000,
+      "image": "https://example.com/images/bistro-table.jpg",
+      "description": "Compact round table for small dining spaces.",
+      "category": "Dining",
+      "stock": 9
+    },
+    {
+      "id": 56,
+      "name": "Dining Room Chandelier",
+      "price": 11000,
+      "image": "https://example.com/images/chandelier.jpg",
+      "description": "Elegant chandelier to elevate your dining room.",
+      "category": "Dining",
+      "stock": 5
+    },
+    {
+      "id": 57,
+      "name": "Extendable Dining Table",
+      "price": 35000,
+      "image": "https://example.com/images/extendable-table.jpg",
+      "description": "Table with hidden leaf for extra seating.",
+      "category": "Dining",
+      "stock": 3
+    },
+    {
+      "id": 58,
+      "name": "Dining Chair Cushions",
+      "price": 4800,
+      "image": "https://example.com/images/chair-cushions.jpg",
+      "description": "Set of four padded cushions for dining chairs.",
+      "category": "Dining",
+      "stock": 12
+    },
+    {
+      "id": 59,
+      "name": "Buffet Sideboard",
+      "price": 24000,
+      "image": "https://example.com/images/buffet.jpg",
+      "description": "Storage sideboard for dishes and linens.",
+      "category": "Dining",
+      "stock": 6
+    },
+    {
+      "id": 60,
+      "name": "Wine Rack Cabinet",
+      "price": 16000,
+      "image": "https://example.com/images/wine-rack.jpg",
+      "description": "Wooden cabinet with built-in wine rack.",
+      "category": "Dining",
+      "stock": 4
+    },
+    {
+      "id": 61,
+      "name": "Dining Table Runner",
+      "price": 3200,
+      "image": "https://example.com/images/table-runner.jpg",
+      "description": "Cotton table runner with geometric patterns.",
+      "category": "Dining",
+      "stock": 15
+    },
+    {
+      "id": 62,
+      "name": "Wall-Mounted Plate Rack",
+      "price": 7800,
+      "image": "https://example.com/images/plate-rack.jpg",
+      "description": "Rustic rack for displaying decorative plates.",
+      "category": "Dining",
+      "stock": 8
+    },
+    {
+      "id": 63,
+      "name": "Dining Room Mirror",
+      "price": 9500,
+      "image": "https://example.com/images/dining-mirror.jpg",
+      "description": "Framed mirror to add depth to your dining space.",
+      "category": "Dining",
+      "stock": 6
+    },
+    {
+      "id": 64,
+      "name": "Tabletop Centerpiece Bowl",
+      "price": 5200,
+      "image": "https://example.com/images/centerpiece.jpg",
+      "description": "Decorative bowl for fruits or flowers.",
+      "category": "Dining",
+      "stock": 10
+    },
+    {
+      "id": 65,
+      "name": "Dining Chair Slipcovers",
+      "price": 6000,
+      "image": "https://example.com/images/slipcovers.jpg",
+      "description": "Set of washable slipcovers for dining chairs.",
+      "category": "Dining",
+      "stock": 14
+    },
+    {
+      "id": 66,
+      "name": "Wall Art for Dining Room",
+      "price": 4800,
+      "image": "https://example.com/images/dining-art.jpg",
+      "description": "Abstract canvas art for dining ambiance.",
+      "category": "Dining",
+      "stock": 11
+    },
+    {
+      "id": 67,
+      "name": "Dining Table Protector",
+      "price": 3500,
+      "image": "https://example.com/images/table-protector.jpg",
+      "description": "Clear vinyl protector for wood surfaces.",
+      "category": "Dining",
+      "stock": 13
+    },
+    {
+      "id": 68,
+      "name": "High-Back Dining Chairs",
+      "price": 21000,
+      "image": "https://example.com/images/highback-chairs.jpg",
+      "description": "Set of two high-back chairs with linen fabric.",
+      "category": "Dining",
+      "stock": 5
+    },
+    {
+      "id": 69,
+      "name": "Foldable Dining Table",
+      "price": 19000,
+      "image": "https://example.com/images/foldable-table.jpg",
+      "description": "Space-saving table for compact homes.",
+      "category": "Dining",
+      "stock": 7
+    },
+    {
+      "id": 70,
+      "name": "Dining Room Rug",
+      "price": 8800,
+      "image": "https://example.com/images/dining-rug.jpg",
+      "description": "Durable rug for under the dining table.",
+      "category": "Dining",
+      "stock": 9
+    },
+    {
+      "id": 71,
+      "name": "Tabletop Candle Holders",
+      "price": 4200,
+      "image": "https://example.com/images/candle-holders.jpg",
+      "description": "Set of three metal candle holders.",
+      "category": "Dining",
+      "stock": 16
+    },
+    {
+      "id": 72,
+      "name": "Dining Room Curtain Set",
+      "price": 7800,
+      "image": "https://example.com/images/dining-curtains.jpg",
+      "description": "Light-filtering curtains for dining windows.",
+      "category": "Dining",
+      "stock": 10
+    },
+    {
+      "id": 73,
+      "name": "Bar Cart",
+      "price": 18500,
+      "image": "https://example.com/images/bar-cart.jpg",
+      "description": "Rolling bar cart with glass shelves.",
+      "category": "Dining",
+      "stock": 3
+    },
+    {
+      "id": 74,
+      "name": "Dining Table Napkin Holder",
+      "price": 2500,
+      "image": "https://example.com/images/napkin-holder.jpg",
+      "description": "Wooden napkin holder with rustic charm.",
+      "category": "Dining",
+      "stock": 18
+    },
+    {
+      "id": 75,
+      "name": "Adjustable Dining Stool",
+      "price": 9800,
+      "image": "https://example.com/images/dining-stool.jpg",
+      "description": "Height-adjustable stool for bar-height tables.",
+      "category": "Dining",
+      "stock": 6
+    }
+    {
+      "id": 76,
+      "name": "Modular Storage Cabinet",
+      "price": 18000,
+      "image": "https://example.com/images/modular-cabinet.jpg",
+      "description": "Customizable cabinet with adjustable shelves.",
+      "category": "Storage",
+      "stock": 9
+    },
+    {
+      "id": 77,
+      "name": "Wooden Shoe Rack",
+      "price": 8500,
+      "image": "https://example.com/images/shoe-rack.jpg",
+      "description": "Compact shoe rack with three tiers.",
+      "category": "Storage",
+      "stock": 12
+    },
+    {
+      "id": 78,
+      "name": "Floating Wall Shelf",
+      "price": 6200,
+      "image": "https://example.com/images/floating-shelf.jpg",
+      "description": "Minimalist wall shelf for books and decor.",
+      "category": "Storage",
+      "stock": 10
+    },
+    {
+      "id": 79,
+      "name": "Storage Ottoman",
+      "price": 9800,
+      "image": "https://example.com/images/storage-ottoman.jpg",
+      "description": "Tufted ottoman with hidden storage space.",
+      "category": "Storage",
+      "stock": 7
+    },
+    {
+      "id": 80,
+      "name": "Bookshelf with Drawers",
+      "price": 14500,
+      "image": "https://example.com/images/bookshelf-drawers.jpg",
+      "description": "Tall bookshelf with two bottom drawers.",
+      "category": "Storage",
+      "stock": 6
+    },
+    {
+      "id": 81,
+      "name": "Metal Storage Rack",
+      "price": 11000,
+      "image": "https://example.com/images/metal-rack.jpg",
+      "description": "Heavy-duty rack for garage or pantry use.",
+      "category": "Storage",
+      "stock": 5
+    },
+    {
+      "id": 82,
+      "name": "Underbed Storage Box",
+      "price": 4800,
+      "image": "https://example.com/images/underbed-box.jpg",
+      "description": "Plastic box with wheels for underbed storage.",
+      "category": "Storage",
+      "stock": 14
+    },
+    {
+      "id": 83,
+      "name": "Corner Shelf Unit",
+      "price": 9200,
+      "image": "https://example.com/images/corner-shelf.jpg",
+      "description": "Space-saving shelf for corners and tight spaces.",
+      "category": "Storage",
+      "stock": 8
+    },
+    {
+      "id": 84,
+      "name": "Wicker Basket Set",
+      "price": 5800,
+      "image": "https://example.com/images/wicker-baskets.jpg",
+      "description": "Set of three woven baskets for organizing.",
+      "category": "Storage",
+      "stock": 15
+    },
+    {
+      "id": 85,
+      "name": "Rolling Drawer Cart",
+      "price": 12500,
+      "image": "https://example.com/images/drawer-cart.jpg",
+      "description": "Multi-drawer cart with wheels for mobility.",
+      "category": "Storage",
+      "stock": 6
+    },
+    {
+      "id": 86,
+      "name": "Wall-Mounted Organizer",
+      "price": 7200,
+      "image": "https://example.com/images/wall-organizer.jpg",
+      "description": "Organizer with hooks and shelves for entryways.",
+      "category": "Storage",
+      "stock": 9
+    },
+    {
+      "id": 87,
+      "name": "Cube Storage Shelf",
+      "price": 9800,
+      "image": "https://example.com/images/cube-shelf.jpg",
+      "description": "Shelf with cube compartments for bins or books.",
+      "category": "Storage",
+      "stock": 10
+    },
+    {
+      "id": 88,
+      "name": "Ladder Shelf",
+      "price": 13200,
+      "image": "https://example.com/images/ladder-shelf.jpg",
+      "description": "Stylish ladder-style shelf for decor and storage.",
+      "category": "Storage",
+      "stock": 4
+    },
+    {
+      "id": 89,
+      "name": "Pantry Cabinet",
+      "price": 21000,
+      "image": "https://example.com/images/pantry-cabinet.jpg",
+      "description": "Tall cabinet with adjustable shelves for pantry use.",
+      "category": "Storage",
+      "stock": 5
+    },
+    {
+      "id": 90,
+      "name": "Toy Storage Chest",
+      "price": 8800,
+      "image": "https://example.com/images/toy-chest.jpg",
+      "description": "Wooden chest with safety hinges for toy storage.",
+      "category": "Storage",
+      "stock": 7
+    },
+    {
+      "id": 91,
+      "name": "Closet Organizer System",
+      "price": 26500,
+      "image": "https://example.com/images/closet-organizer.jpg",
+      "description": "Modular closet system with hanging rods and shelves.",
+      "category": "Storage",
+      "stock": 3
+    },
+    {
+      "id": 92,
+      "name": "File Cabinet",
+      "price": 15800,
+      "image": "https://example.com/images/file-cabinet.jpg",
+      "description": "Two-drawer cabinet for documents and folders.",
+      "category": "Storage",
+      "stock": 6
+    },
+    {
+      "id": 93,
+      "name": "Storage Bench",
+      "price": 14200,
+      "image": "https://example.com/images/storage-bench.jpg",
+      "description": "Bench with lift-top storage and cushion seat.",
+      "category": "Storage",
+      "stock": 5
+    },
+    {
+      "id": 94,
+      "name": "Hanging Closet Shelf",
+      "price": 4800,
+      "image": "https://example.com/images/hanging-shelf.jpg",
+      "description": "Fabric shelf that hangs from closet rod.",
+      "category": "Storage",
+      "stock": 11
+    },
+    {
+      "id": 95,
+      "name": "Drawer Dividers",
+      "price": 3200,
+      "image": "https://example.com/images/drawer-dividers.jpg",
+      "description": "Expandable dividers for organizing drawers.",
+      "category": "Storage",
+      "stock": 13
+    },
+    {
+      "id": 96,
+      "name": "Wall-Mounted Cabinet",
+      "price": 16800,
+      "image": "https://example.com/images/wall-cabinet.jpg",
+      "description": "Floating cabinet with two doors and internal shelves.",
+      "category": "Storage",
+      "stock": 4
+    },
+    {
+      "id": 97,
+      "name": "Plastic Storage Bins",
+      "price": 5800,
+      "image": "https://example.com/images/storage-bins.jpg",
+      "description": "Stackable bins for seasonal items and tools.",
+      "category": "Storage",
+      "stock": 16
+    },
+    {
+      "id": 98,
+      "name": "Rolling Closet Rack",
+      "price": 14200,
+      "image": "https://example.com/images/closet-rack.jpg",
+      "description": "Portable rack with hanging space and bottom shelf.",
+      "category": "Storage",
+      "stock": 6
+    },
+    {
+      "id": 99,
+      "name": "Over-the-Door Organizer",
+      "price": 3900,
+      "image": "https://example.com/images/door-organizer.jpg",
+      "description": "Multi-pocket organizer for shoes or accessories.",
+      "category": "Storage",
+      "stock": 14
+    },
+    {
+      "id": 100,
+      "name": "Wooden Crate Set",
+      "price": 7200,
+      "image": "https://example.com/images/crate-set.jpg",
+      "description": "Rustic wooden crates for flexible storage.",
+      "category": "Storage",
+      "stock": 10
+    }
+  ]
+}
