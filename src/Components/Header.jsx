@@ -17,9 +17,10 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-      <div className="header-banner">
+      <div> className="header-banner"
         <h1>Hand-crafted Furniture for Inspired Living</h1>
         <p>Highly durable</p>
+      </div>
       
     </header>
   );
