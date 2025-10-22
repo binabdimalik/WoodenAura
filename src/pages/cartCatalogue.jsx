@@ -54,15 +54,21 @@ function cartCatalogue() {
                     {cart.map(item => (
                         <li key={item.id}>
                             <img src={item.image} alt={item.name} width="100" />
-                            <p>{item.name} - KES {item.price} * {item.quantity}</p>
+                            <p>{item.name} - KES {item.price} * {item.quantity}</p> {/** shows each item in the cart with quantity */}
+                            <button label="Remove" onClick={() => removeFromCart(item.id)} />  {/** shows remove button */}
                         </li>
                     ))}
                 </ul>
             )}
+            <h3>Total: KES {totalCost}</h3> {/** shows total cost */}
+            <button label="Checkout" onClick={() => alert('Proceeciding to payment...')} /> {/** shows checkout button */}
         </div>
-    )
+    );
   return (
-    <div>cartCatalogue</div>
+    <div>
+        <Button label={view === 'catalogue' ? 'Go to Cart' : 'Back to Catalogue'} onClick={() => setView(view === 'catalogue' ? 'cart': 'catalogue')} />
+        {view === 'catalogue' ? renderCatalogue() : renderCart()}
+    </div>
   )
 }
 
