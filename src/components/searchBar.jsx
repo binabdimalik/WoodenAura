@@ -32,7 +32,7 @@ function SearchBar({ products, onFilter }) {
   );
 }
 
-
+// this will 
 const styles = {
   container: {
     margin: '20px auto',
