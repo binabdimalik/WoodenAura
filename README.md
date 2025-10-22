@@ -1,16 +1,35 @@
-# React + Vite
+#  Bot Battlr
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Bot Battlr**, a React app where users build and manage their own team of battle bots!.Think of this as an app where with one click you control you army deciding whether it should or should not go to battle
 
-Currently, two official plugins are available:
+This project uses key React concepts like components, props, state, and backend interaction 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  What This App Does
 
-## React Compiler
+- Fetches a list of bots from a backend server
+- Displays all available bots in a card layout
+- Lets users **enlist bots** into their personal army
+- Allows users to **release bots** from their army
+- Lets users **discharge bots** permanently (deletes from backend)
+- Allows user to see detailed functions or capability of a bot.(enabled by bot page)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+##  Tools And Frame works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Vite)
+- JavaScript
+- CSS (custom theme: black, purple, gold, sky blue)
+- JSON Server (for backend)
+
+---
+
+##  Folder Structure
+src-(Assets,components-(BotCard.jsx, BotCollection.jsx, YourBotArmy.jsx),services,App.css,App.jsx,index.css,main.jsx)
+
+##  Repository
+
+GitHub repo: [Phase2-code Challange](https://github.com/x3rv1/Phase2-codeChallange)  
+Clone with SSH:
+
+```bash
+git clone git@github.com:x3rv1/Phase2-codeChallange.git
