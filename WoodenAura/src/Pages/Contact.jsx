@@ -74,7 +74,7 @@ const Contact = () => {
         <div className="store-info">
           <h2>Our Store</h2>
           <p>Address: 123 Wooden Aura Street, Nairobi, Kenya</p>
-          <p>Phone: +254 112066443</p>
+          <p>Phone: +254 712 345 678</p>
           <p>Email: info@woodenaura.com</p>
 
           {/* Embedded Google Map */}
