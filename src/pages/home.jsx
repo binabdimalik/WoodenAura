@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function WoodenHero() {
+function Home() {
   const slogan =
     "Where timeless craftsmanship meets the soul of wood — designed to bring warmth, character, and elegance into every home.";
 
   return (
     <section>
       <div>
-        <h1>WOODEN</h1>
+        
         <p>{slogan}</p>
 
         <div>
@@ -17,3 +17,6 @@ export default function WoodenHero() {
     </section>
   );
 }
+
+
+export default  Home;
