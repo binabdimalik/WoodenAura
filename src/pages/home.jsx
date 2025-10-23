@@ -7,7 +7,7 @@ function Home() {
   return (
     <section>
       <div>
-        
+        <h2>Welcome to WoodenAura 🪑</h2>
         <p>{slogan}</p>
 
         <div>
