@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import productCard from "../components/productCard";
-import button from "../components/button";
+import ProductCard from "../components/productCard";
+import Button from "../components/button";
 
 
 function cartCatalogue() {

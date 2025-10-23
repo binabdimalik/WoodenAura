@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button'; // Reusable button component
+import Button from './button'; // Reusable button component
 import { useNavigate } from 'react-router-dom'; // For navigation to ProductDetails
 
 function ProductCard({ product }) {
