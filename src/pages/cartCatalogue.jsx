@@ -3,7 +3,7 @@ import ProductCard from "../components/productCard";
 import Button from "../components/button";
 
 
-function cartCatalogue() {
+function CartCatalogue() {
     const [view, setView] = useState('catalogue'); //  controls which screen to show; 'catalogue' or 'cart'
     const [products, setProducts] = useState([]); // holds the list of furniture from the server
     const [cart, setCart] = useState([]);  // holds the items the user added
@@ -73,4 +73,4 @@ function cartCatalogue() {
 }
 
 
-export default  cartCatalogue;
+export default  CartCatalogue;

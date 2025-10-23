@@ -1,14 +1,19 @@
+
+// src/components/About.jsx
 import React from "react";
 import aboutData from "../data/aboutData";
 
-function about({ title, content }) {
+function About() {
   return (
-    <div>
-      {title && <h2>{title}</h2>}
-      <p>{content}</p>
-    </div>
+    <section className="about-section">
+      {aboutData.map((item, index) => (
+        <div key={index} className="about-block">
+          {item.title && <h2>{item.title}</h2>}
+          <p>{item.content}</p>
+        </div>
+      ))}
+    </section>
   );
 }
 
-export default about;
-
+export default About;
