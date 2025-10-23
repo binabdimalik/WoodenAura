@@ -1,5 +1,5 @@
-// CardData.jsx
-const cardData = [
+// aboutData.jsx
+const aboutData = [
   {
     title: "Our Story",
     content: `WoodenAura is where craftsmanship meets nature — a brand built on passion, precision, and purpose.
@@ -37,4 +37,4 @@ const cardData = [
   }
 ];
 
-export default cardData;
+export default aboutData;

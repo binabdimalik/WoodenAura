@@ -1,5 +1,6 @@
 import React from "react";
 
+
 // Destructure props directly in the function parameters
 const Button = ({ label, onClick, type = "button", style = {} }) => {
   return (
