@@ -1,4 +1,5 @@
 import React from "react";
+import aboutData from "../data/aboutData";
 
 function about({ title, content }) {
   return (

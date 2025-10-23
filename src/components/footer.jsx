@@ -1,7 +1,7 @@
 // src/components/Footer.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import "./footer.css"; // Optional: create this for styling
+ // Optional: create this for styling
 
 const Footer = () => {
   return (

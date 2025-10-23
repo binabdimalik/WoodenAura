@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import ProductCard from '../components/ProductCard';
-import SearchBar from '../components/SearchBar';
+import ProductCard from '../components/productCard';
+import SearchBar from '../components/searchBar';
 
 function ProductList() {
   const [products, setProducts] = useState([]);         // All products from API

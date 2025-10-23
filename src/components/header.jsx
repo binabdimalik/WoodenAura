@@ -1,29 +1,20 @@
 import React from 'react';
-import './Header.css';
+import navLink from './navLink';
+import SearchBar from './searchBar';
 
-const Header = () => {
+function Header() {
   return (
-    <header className="site-header">
-      <div className="container">
-        <div className="logo">
-          <a href="/">Wood Aura</a>
-        </div>
-        <nav className="main-nav">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/collection">Collection</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div> className="header-banner"
-        <h1>Hand-crafted Furniture for Inspired Living</h1>
-        <p>Highly durable</p>
-      </div>
-      
+    <header>
+      <h1>WoodenAura</h1>
+      <nav>
+        <navLink path="/" label="Home" />
+        <navLink path="/products" label="Products" />
+        <navLink path="/about" label="About" />
+        <navLink path="/contact" label="Contact" />
+      </nav>
+      <SearchBar />
     </header>
   );
-};
+}
 
 export default Header;
