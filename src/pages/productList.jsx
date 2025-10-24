@@ -9,15 +9,18 @@ function ProductList() {
   const [category, setCategory] = useState('All');       // Selected category
   const [maxPrice, setMaxPrice] = useState(100000);      // Price filter
 
+  // Fetch products from JSON Server
   useEffect(() => {
     fetch('http://localhost:3001/products')
       .then(res => res.json())
       .then(data => {
         setProducts(data);
         setFiltered(data);
-      });
+      })
+      .catch(err => console.error('Fetch error:', err));
   }, []);
 
+  // Apply filters whenever search/category/price changes
   useEffect(() => {
     let result = products;
 
@@ -40,12 +43,14 @@ function ProductList() {
   }, [searchTerm, category, maxPrice, products]);
 
   return (
-    <div className="product-list">
-      <h2>Our Furniture Collection</h2>
+    <div style={styles.container}>
+      <h2>🪑 Our Furniture Collection</h2>
 
+      {/* Search bar */}
       <SearchBar onSearch={setSearchTerm} />
 
-      <div className="filters">
+      {/* Filters */}
+      <div style={styles.filters}>
         <label>
           Category:
           <select value={category} onChange={e => setCategory(e.target.value)}>
@@ -67,16 +72,17 @@ function ProductList() {
             value={maxPrice}
             onChange={e => setMaxPrice(Number(e.target.value))}
           />
-          <span>KES {maxPrice}</span>
+          <span>KES {maxPrice.toLocaleString()}</span>
         </label>
       </div>
 
-      <div className="product-grid">
+      {/* Product grid */}
+      <div style={styles.grid}>
         {filtered.length === 0 ? (
           <p>No products found.</p>
         ) : (
           filtered.map(product => (
-            <ProductCard key={product.id} {...product} />
+            <ProductCard key={product.id} product={product} />
           ))
         )}
       </div>
@@ -85,3 +91,9 @@ function ProductList() {
 }
 
 export default ProductList;
+
+const styles = {
+  container: { padding: '20px' },
+  filters: { display: 'flex', gap: '20px', marginBottom: '20px', flexWrap: 'wrap' },
+  grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px' }
+};

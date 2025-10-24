@@ -1,5 +1,5 @@
 import React from 'react';
-import navLink from './navLink';
+import NavLink from './navLink';
 import SearchBar from './searchBar';
 
 function Header() {
@@ -7,10 +7,10 @@ function Header() {
     <header>
       <h1>WoodenAura</h1>
       <nav>
-        <navLink path="/" label="Home" />
-        <navLink path="/products" label="Products" />
-        <navLink path="/about" label="About" />
-        <navLink path="/contact" label="Contact" />
+        <NavLink path="/" label="Home" />
+        <NavLink path="/products" label="Products" />
+        <NavLink path="/about" label="About" />
+        <NavLink path="/contact" label="Contact" />
       </nav>
       <SearchBar />
     </header>
