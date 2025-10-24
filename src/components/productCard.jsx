@@ -1,13 +1,16 @@
-import React from 'react';
-import Button from './button'; // Reusable button component
-import { useNavigate } from 'react-router-dom'; // For navigation to ProductDetails
+import { useNavigate } from 'react-router-dom';
+import Button from './button';// Make sure this path matches your folder structure
 
 function ProductCard({ product }) {
-  const navigate = useNavigate();// This lets us change the page using code, like when someone clicks a button
+  const navigate = useNavigate();
 
-  // Function to handle "View Details" button click
+  // ✅ Safety check: avoid crashing if product is missing
+  if (!product) {
+    return <p>Product data is missing.</p>;
+  }
+
+  // Navigate to product details page
   const handleViewDetails = () => {
-    // Navigate to the product details page using the product ID
     navigate(`/products/${product.id}`);
   };
 
@@ -15,8 +18,8 @@ function ProductCard({ product }) {
     <div style={styles.card}>
       {/* Product image */}
       <img
-        src={product.image}
-        alt={product.name}
+        src={product.image || 'placeholder.jpg'} // fallback image
+        alt={product.name || 'Furniture Item'}
         style={styles.image}
       />
 
@@ -24,7 +27,7 @@ function ProductCard({ product }) {
       <h3 style={styles.name}>{product.name}</h3>
 
       {/* Product price */}
-      <p style={styles.price}>Ksh {product.price.toLocaleString()}</p>
+      <p style={styles.price}>Ksh {product.price?.toLocaleString()}</p>
 
       {/* View Details button */}
       <Button label="View Details" onClick={handleViewDetails} />
@@ -32,31 +35,31 @@ function ProductCard({ product }) {
   );
 }
 
-// Inline styles for layout and design
+export default ProductCard;
+
+// 🎨 Inline styles (you can move these to a CSS file later)
 const styles = {
   card: {
-    border: '1px solid #ddd',
+    border: '1px solid #ccc',
     borderRadius: '8px',
     padding: '16px',
     textAlign: 'center',
     boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
-    backgroundColor: '#fff',
+    backgroundColor: '#fff'
   },
   image: {
     width: '100%',
-    height: '180px',
+    height: '200px',
     objectFit: 'cover',
-    borderRadius: '6px',
+    borderRadius: '4px'
   },
   name: {
-    fontSize: '18px',
-    margin: '12px 0 6px',
+    fontSize: '1.2rem',
+    margin: '12px 0 8px'
   },
   price: {
-    fontSize: '16px',
-    color: '#444',
-    marginBottom: '12px',
-  },
+    fontSize: '1rem',
+    color: '#555',
+    marginBottom: '12px'
+  }
 };
-
-export default ProductCard;

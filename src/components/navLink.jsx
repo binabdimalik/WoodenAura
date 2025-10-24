@@ -1,6 +1,6 @@
 import { NavLink as RouterLink } from "react-router-dom";  // this imports NavLink from React Router library
 
-function navLink({ path, label}) {
+function NavLink({ path, label}) {
   return (
     <RouterLink to={path} style={({ isActive }) => ({
         fontWeight: isActive ? 'bold' : 'normal',
@@ -13,5 +13,5 @@ function navLink({ path, label}) {
   );
 }
 
-export default navLink;
+export default NavLink;
 

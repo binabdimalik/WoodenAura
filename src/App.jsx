@@ -5,8 +5,8 @@ import Footer from './components/footer';
 import Home from './pages/home';
 import ProductList from './pages/productList';
 import ProductDetails from './pages/productDetails';
-import cartCatalogue from './pages/cartCatalogue';
-import about from './components/about';
+import CartCatalogue from './pages/cartCatalogue';
+import About from './components/about';
 import Contact from './pages/contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
