@@ -11,15 +11,16 @@ function ProductList() {
 
   // Fetch products from JSON Server
   useEffect(() => {
-    fetch('http://localhost:3001/products')
-      .then(res => res.json())
-      .then(data => {
+    fetch("http://localhost:3000/products")
+      .then((res) => res.json())
+      .then((data) => {
         setProducts(data);
-        setFiltered(data);
+        setFilteredProducts(data); // initialize filtered list
       })
-      .catch(err => console.error('Fetch error:', err));
+      .catch((err) => console.error("Error fetching products:", err));
   }, []);
 
+  
   // Apply filters whenever search/category/price changes
   useEffect(() => {
     let result = products;
