@@ -13,8 +13,8 @@
       "id": 2,
       "name": "Leather Sectional Sofa",
       "price": 52000,
-      "image": "https://example.com/images/leather-sectional.jpg",
-      "description": "Spacious leather sectional with deep cushions and a modern silhouette.",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2024/04/DSC5249-scaled.jpg?fit=2560%2C1722&ssl=1",
+      "description": "Spacious L-shaped leather sectional sofa with adjustable headrests.",
       "category": "Living Room",
       "stock": 5
     },
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Mid-Century Coffee Table",
       "price": 14000,
-      "image": "https://example.com/images/midcentury-coffee.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2024/04/serge_coffee_table-scaled-1.webp?fit=2560%2C2560&ssl=1",
       "description": "Walnut coffee table with tapered legs and a sleek finish.",
       "category": "Living Room",
       "stock": 10
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Boho Floor Lamp",
       "price": 6000,
-      "image": "https://example.com/images/boho-lamp.jpg",
+      "image": "https://www.shutterstock.com/shutterstock/photos/2536289449/display_1500/stock-photo-the-charming-look-of-the-rattan-wicker-chandelier-against-the-backdrop-of-a-combination-of-wooden-2536289449.jpg",
       "description": "Woven rattan floor lamp with warm ambient lighting.",
       "category": "Living Room",
       "stock": 12
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Tufted Ottoman",
       "price": 8500,
-      "image": "https://example.com/images/tufted-ottoman.jpg",
+      "image": "https://www.gemellicollections.com/cdn/shop/files/FB-IMG_1739970665177.jpg?v=1739970864&width=1200",
       "description": "Velvet tufted ottoman with hidden storage space.",
       "category": "Living Room",
       "stock": 7
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Recliner Armchair",
       "price": 22000,
-      "image": "https://example.com/images/recliner-armchair.jpg",
+      "image": "https://www.gemellicollections.com/cdn/shop/files/rn-image_picker_lib_temp_25edfe38-fcd4-4311-8a91-1dd59e6977af.jpg?v=1752213932&width=1200",
       "description": "Ergonomic recliner with adjustable back and footrest.",
       "category": "Living Room",
       "stock": 6
@@ -58,7 +58,7 @@
       "id": 7,
       "name": "Glass TV Stand",
       "price": 11000,
-      "image": "https://example.com/images/glass-tv.jpg",
+      "image": "https://img.kilimall.com/c/obs/seller/100006602/goods_image/250221152513_633cb18e1a258354232d38f9af251c63.jpg?x-image-process=image/format,webp/resize,w_720#",
       "description": "Tempered glass TV stand with chrome accents.",
       "category": "Living Room",
       "stock": 9
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Rustic Wall Shelf",
       "price": 5000,
-      "image": "https://example.com/images/rustic-shelf.jpg",
+      "image": "https://malpaenterprises.com/wp-content/uploads/2025/07/corner-bookshelf-2.jpg",
       "description": "Reclaimed wood wall shelf for books and decor.",
       "category": "Living Room",
       "stock": 15
@@ -76,7 +76,7 @@
       "id": 9,
       "name": "Contemporary Side Table",
       "price": 7000,
-      "image": "https://example.com/images/contemporary-side.jpg",
+      "image": "https://i.pinimg.com/736x/85/b6/69/85b6694782a66f720bbd245eaed60a9f.jpg",
       "description": "Compact side table with matte black finish.",
       "category": "Living Room",
       "stock": 11
@@ -85,8 +85,8 @@
       "id": 10,
       "name": "Fabric Loveseat",
       "price": 28000,
-      "image": "https://example.com/images/fabric-loveseat.jpg",
-      "description": "Two-seater fabric loveseat with soft cushions.",
+      "image": "https://fairdealfurniture.co.ke/wp-content/uploads/2025/04/1-1.webp",
+      "description": "Cozy fabric loveseat with plush cushions.",
       "category": "Living Room",
       "stock": 4
     },
@@ -94,7 +94,7 @@
       "id": 11,
       "name": "Industrial Console Table",
       "price": 16000,
-      "image": "https://example.com/images/industrial-console.jpg",
+      "image": "https://pogofurniture.co.ke/wp-content/uploads/2025/06/c701db1c-8490-424e-af13-b4f191ed8933.png",
       "description": "Metal and wood console table with open shelving.",
       "category": "Living Room",
       "stock": 8
@@ -103,7 +103,7 @@
       "id": 12,
       "name": "Patterned Area Rug",
       "price": 9500,
-      "image": "https://example.com/images/patterned-rug.jpg",
+      "image": "https://tremorhouseholds.co.ke/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-18-at-9.45.40-PM.jpeg",
       "description": "Colorful woven rug to brighten up your space.",
       "category": "Living Room",
       "stock": 14
@@ -112,7 +112,7 @@
       "id": 13,
       "name": "Wall-Mounted Bookshelf",
       "price": 13000,
-      "image": "https://example.com/images/wall-bookshelf.jpg",
+      "image": "https://airlandfurniture.co.ke/wp-content/uploads/2025/04/IMG-20221010-WA0014.jpg",
       "description": "Floating bookshelf with minimalist design.",
       "category": "Living Room",
       "stock": 6
@@ -121,7 +121,7 @@
       "id": 14,
       "name": "Swivel Lounge Chair",
       "price": 19500,
-      "image": "https://example.com/images/swivel-chair.jpg",
+      "image": "https://barn.co.ke/officefurniture/assets/uploads/product-featured-111.jpeg",
       "description": "360-degree swivel chair with faux leather upholstery.",
       "category": "Living Room",
       "stock": 5
@@ -130,7 +130,7 @@
       "id": 15,
       "name": "Corner Sofa Set",
       "price": 58000,
-      "image": "https://example.com/images/corner-sofa.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2024/04/DSC5249-scaled.jpg?fit=2560%2C1722&ssl=1",
       "description": "L-shaped sofa set with high-density foam cushions.",
       "category": "Living Room",
       "stock": 3
@@ -139,7 +139,7 @@
       "id": 16,
       "name": "Vintage Trunk Table",
       "price": 12500,
-      "image": "https://example.com/images/trunk-table.jpg",
+      "image": "https://malpaenterprises.com/wp-content/uploads/2024/08/bedside-pedestal-1-1.jpg?_gl=1*ea1mx2*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwx-zHBhBhEiwA7Kjq6xO_K4-os8__yB_dy7VbLG3IcaC3KMQSaXUeI0TpUto9ACHO64qQfRoCfHcQAvD_BwE&gbraid=0AAAAAqLMVU1GlCk3rtz2Jojj-qOi0GHZb",
       "description": "Vintage-style trunk table with brass hardware.",
       "category": "Living Room",
       "stock": 7
@@ -148,7 +148,7 @@
       "id": 17,
       "name": "Wall Art Canvas",
       "price": 4500,
-      "image": "https://example.com/images/wall-art.jpg",
+      "image": "https://i.ebayimg.com/images/g/u48AAOSweedoXFu7/s-l1600.webp",
       "description": "Abstract canvas art to elevate your living room.",
       "category": "Living Room",
       "stock": 20
@@ -157,7 +157,7 @@
       "id": 18,
       "name": "Bean Bag Chair",
       "price": 7500,
-      "image": "https://example.com/images/bean-bag.jpg",
+      "image": "https://gemhomeaccesories.com/cdn/shop/files/rn-image_picker_lib_temp_d7db19dc-95e0-4ef1-8e9b-efa00119af54.jpg?v=1752914450&width=493",
       "description": "Oversized bean bag chair for casual lounging.",
       "category": "Living Room",
       "stock": 10
@@ -166,8 +166,7 @@
       "id": 19,
       "name": "Floating TV Cabinet",
       "price": 17000,
-      "image": "https://example.com/images/floating-tv.jpg",
-      "description": "Wall-mounted TV cabinet with hidden cable management.",
+      "image": "https://i.ebayimg.com/images/g/2u0AAeSwoHdoIAYk/s-l1600.webp",
       "category": "Living Room",
       "stock": 6
     },
@@ -175,7 +174,7 @@
       "id": 20,
       "name": "Curved Sofa",
       "price": 49000,
-      "image": "https://example.com/images/curved-sofa.jpg",
+      "image": "https://pogofurniture.co.ke/wp-content/uploads/2025/01/9-Piece-Outdoor-Patio-Large-Wicker-Sofa-Set-with-Removable-Cushions.jpg",
       "description": "Elegant curved sofa with velvet upholstery.",
       "category": "Living Room",
       "stock": 4
@@ -184,7 +183,7 @@
       "id": 21,
       "name": "Marble Side Table",
       "price": 9500,
-      "image": "https://example.com/images/marble-side.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2025/03/stellar-scaled.jpg?fit=2560%2C1707&ssl=1",
       "description": "Round marble side table with brass legs.",
       "category": "Living Room",
       "stock": 9
@@ -193,8 +192,8 @@
       "id": 22,
       "name": "Hanging Chair",
       "price": 18500,
-      "image": "https://example.com/images/hanging-chair.jpg",
-      "description": "Suspended rattan chair with cozy cushions.",
+      "image": "https://www.shutterstock.com/shutterstock/photos/2536289449/display_1500/stock-photo-the-charming-look-of-the-rattan-wicker-chandelier-against-the-backdrop-of-a-combination-of-wooden-2536289449.jpg",
+      "description": "Stylish hanging chair for indoor or outdoor use.",
       "category": "Living Room",
       "stock": 3
     },
@@ -202,7 +201,7 @@
       "id": 23,
       "name": "Faux Fur Throw",
       "price": 3500,
-      "image": "https://example.com/images/faux-fur.jpg",
+      "image": "https://www.gemellicollections.com/cdn/shop/files/IMG-6890.jpg?v=1757356795&width=1200",
       "description": "Soft faux fur throw blanket for added comfort.",
       "category": "Living Room",
       "stock": 18
@@ -211,7 +210,7 @@
       "id": 24,
       "name": "Geometric Bookshelf",
       "price": 14500,
-      "image": "https://example.com/images/geometric-shelf.jpg",
+      "image": "https://foter.com/photos/449/bajulal-geometric-storage-bookcase.jpg?s=lbx",
       "description": "Modern bookshelf with geometric compartments.",
       "category": "Living Room",
       "stock": 5
@@ -220,7 +219,7 @@
       "id": 25,
       "name": "Compact Media Unit",
       "price": 15500,
-      "image": "https://example.com/images/media-unit.jpg",
+      "image": "https://fairdealfurniture.co.ke/wp-content/uploads/2025/05/1-673.webp",
       "description": "Space-saving media unit with sliding doors.",
       "category": "Living Room",
       "stock": 7
@@ -229,7 +228,7 @@
       "id": 26,
       "name": "Canopy Bed Frame",
       "price": 38000,
-      "image": "https://example.com/images/canopy-bed.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2024/03/WINDSOR-KING-BED-scaled-1.jpg?fit=2560%2C1707&ssl=1",
       "description": "Elegant canopy bed with sheer drapes and a mahogany frame.",
       "category": "Bedroom",
       "stock": 4
@@ -238,7 +237,7 @@
       "id": 27,
       "name": "Nightstand with Drawer",
       "price": 9500,
-      "image": "https://example.com/images/nightstand.jpg",
+      "image": "https://tremorhouseholds.co.ke/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-02-at-3.47.16-PM.jpeg",
       "description": "Compact nightstand with a single drawer and open shelf.",
       "category": "Bedroom",
       "stock": 10
@@ -247,8 +246,7 @@
       "id": 28,
       "name": "Upholstered Headboard",
       "price": 12000,
-      "image": "https://example.com/images/headboard.jpg",
-      "description": "Soft fabric headboard with button tufting.",
+      "image": ".https://m.media-amazon.com/images/I/71eLxYnzHxL._AC_SL1200_.jpg",
       "category": "Bedroom",
       "stock": 6
     },
@@ -256,7 +254,7 @@
       "id": 29,
       "name": "Double Wardrobe",
       "price": 28000,
-      "image": "https://example.com/images/wardrobe.jpg",
+      "image": "https://fairdealfurniture.co.ke/wp-content/uploads/2025/05/1-458-scaled.webp",
       "description": "Spacious wardrobe with hanging and drawer sections.",
       "category": "Bedroom",
       "stock": 5
@@ -265,7 +263,7 @@
       "id": 30,
       "name": "Memory Foam Mattress",
       "price": 22000,
-      "image": "https://example.com/images/mattress.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2025/05/iluxe-c-scaled.jpg?fit=2560%2C1460&ssl=1",
       "description": "Queen-size memory foam mattress with cooling gel.",
       "category": "Bedroom",
       "stock": 8
@@ -274,7 +272,7 @@
       "id": 31,
       "name": "Vanity Table Set",
       "price": 18500,
-      "image": "https://example.com/images/vanity.jpg",
+      "image": "https://image.kilimall.com/kenya/shop/store/goods/6411/2023/01/16750269906080ab05d1795f54a75808e1314183f9881.jpg?x-image-process=image/format,webp/resize,w_720#",
       "description": "Vanity table with mirror and matching stool.",
       "category": "Bedroom",
       "stock": 3
@@ -283,7 +281,7 @@
       "id": 32,
       "name": "Underbed Storage Drawers",
       "price": 7500,
-      "image": "https://example.com/images/underbed-storage.jpg",
+      "image": "https://nilababyshop.com/wp-content/uploads/2022/05/IMG-20250830-WA0041.jpg",
       "description": "Set of two rolling drawers for underbed storage.",
       "category": "Bedroom",
       "stock": 12
@@ -292,7 +290,7 @@
       "id": 33,
       "name": "Bedside Lamp",
       "price": 4500,
-      "image": "https://example.com/images/bedside-lamp.jpg",
+      "image": "https://www.gemellicollections.com/cdn/shop/files/rn-image_picker_lib_temp_3e474725-719b-4dbf-a833-a4e422537e5e.jpg?v=1758546008&width=1200",
       "description": "Ceramic lamp with linen shade for soft lighting.",
       "category": "Bedroom",
       "stock": 15
@@ -301,7 +299,7 @@
       "id": 34,
       "name": "Dresser with Mirror",
       "price": 26000,
-      "image": "https://example.com/images/dresser.jpg",
+      "image": "https://nilababyshop.com/wp-content/uploads/2025/08/IMG-20250804-WA0318-600x800.jpg",
       "description": "Six-drawer dresser with attached mirror.",
       "category": "Bedroom",
       "stock": 4
@@ -310,7 +308,7 @@
       "id": 35,
       "name": "Platform Bed",
       "price": 31000,
-      "image": "https://example.com/images/platform-bed.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2025/07/Fortman-set-scaled.jpg?fit=2560%2C1440&ssl=1",
       "description": "Low-profile platform bed with built-in slats.",
       "category": "Bedroom",
       "stock": 6
@@ -319,7 +317,7 @@
       "id": 36,
       "name": "Hanging Pendant Light",
       "price": 8500,
-      "image": "https://example.com/images/pendant-light.jpg",
+      "image": "https://gemhomeaccesories.com/cdn/shop/files/rn-image_picker_lib_temp_7fd154c5-af3d-4394-a42c-34c01786dc3e.jpg?v=1752755630&width=493",
       "description": "Modern pendant light for ambient bedroom glow.",
       "category": "Bedroom",
       "stock": 9
@@ -328,7 +326,7 @@
       "id": 37,
       "name": "Foldable Laundry Hamper",
       "price": 3000,
-      "image": "https://example.com/images/laundry-hamper.jpg",
+      "image": "https://www.furahafinds.com/cdn/shop/files/Large-Capacity-Laundry-Storage-Basket-Beige-Foldable-Clothes-Organizer-Hamper.jpg?v=1760228973&width=480",
       "description": "Fabric hamper with handles and collapsible frame.",
       "category": "Bedroom",
       "stock": 20
@@ -337,7 +335,7 @@
       "id": 38,
       "name": "Wall-Mounted Mirror",
       "price": 7000,
-      "image": "https://example.com/images/wall-mirror.jpg",
+      "image": "https://www.samedaybeautystore.co.ke/wp-content/uploads/2025/07/Wall-Mounted-Barber-Shop-Mirror-led.png",
       "description": "Frameless mirror with beveled edges.",
       "category": "Bedroom",
       "stock": 11
@@ -346,7 +344,7 @@
       "id": 39,
       "name": "Tufted Bench",
       "price": 11000,
-      "image": "https://example.com/images/tufted-bench.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2025/03/brogan-ottoman.jpg?fit=2560%2C1707&ssl=1",
       "description": "Bedroom bench with velvet upholstery and storage.",
       "category": "Bedroom",
       "stock": 7
@@ -355,7 +353,7 @@
       "id": 40,
       "name": "Curtain Rod Set",
       "price": 3500,
-      "image": "https://example.com/images/curtain-rod.jpg",
+      "image": "https://image.kilimall.com/kenya/shop/store/goods/7995/2023/09/16939379364541a274edeac3e41e08796d406534286f5.jpg?x-image-process=image/format,webp/resize,w_720#",
       "description": "Adjustable curtain rod with decorative finials.",
       "category": "Bedroom",
       "stock": 14
