@@ -17,4 +17,14 @@ function Header() {
   );
 }
 
-export default Header;
+  return (
+    <nav>
+  <NavLink path="/" label="Home" />
+  <NavLink path="/products" label="Products" />
+  <NavLink path="/cart" label="Cart" />
+  <NavLink path="/about" label="About" />
+  <NavLink path="/contact" label="Contact" />
+</nav>
+
+  )
+}
