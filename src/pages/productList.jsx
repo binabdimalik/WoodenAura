@@ -7,6 +7,7 @@ function ProductList() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState(''); // ✅ new state
 
+  // Fetch products from JSON Server
   useEffect(() => {
     fetch('http://localhost:3001/products')
       .then(res => res.json())
@@ -75,3 +76,9 @@ function ProductList() {
 }
 
 export default ProductList;
+
+const styles = {
+  container: { padding: '20px' },
+  filters: { display: 'flex', gap: '20px', marginBottom: '20px', flexWrap: 'wrap' },
+  grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px' }
+};

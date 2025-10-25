@@ -59,3 +59,22 @@ function ProductDetails() {
 }
 
 export default ProductDetails;
+
+const styles = {
+  container: {
+    padding: '20px',
+    maxWidth: '600px',
+    margin: '0 auto',
+    textAlign: 'center',
+    backgroundColor: '#fff',
+    borderRadius: '8px',
+    boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
+  },
+  image: {
+    width: '100%',
+    height: '300px',
+    objectFit: 'cover',
+    borderRadius: '4px',
+    marginBottom: '20px'
+  }
+};

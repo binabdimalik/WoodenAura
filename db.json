@@ -13,8 +13,8 @@
       "id": 2,
       "name": "Leather Sectional Sofa",
       "price": 52000,
-      "image": "https://example.com/images/leather-sectional.jpg",
-      "description": "Spacious leather sectional with deep cushions and a modern silhouette.",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2024/04/DSC5249-scaled.jpg?fit=2560%2C1722&ssl=1",
+      "description": "Spacious L-shaped leather sectional sofa with adjustable headrests.",
       "category": "Living Room",
       "stock": 5
     },
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Mid-Century Coffee Table",
       "price": 14000,
-      "image": "https://example.com/images/midcentury-coffee.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2024/04/serge_coffee_table-scaled-1.webp?fit=2560%2C2560&ssl=1",
       "description": "Walnut coffee table with tapered legs and a sleek finish.",
       "category": "Living Room",
       "stock": 10
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Boho Floor Lamp",
       "price": 6000,
-      "image": "https://example.com/images/boho-lamp.jpg",
+      "image": "https://www.shutterstock.com/shutterstock/photos/2536289449/display_1500/stock-photo-the-charming-look-of-the-rattan-wicker-chandelier-against-the-backdrop-of-a-combination-of-wooden-2536289449.jpg",
       "description": "Woven rattan floor lamp with warm ambient lighting.",
       "category": "Living Room",
       "stock": 12
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Tufted Ottoman",
       "price": 8500,
-      "image": "https://example.com/images/tufted-ottoman.jpg",
+      "image": "https://www.gemellicollections.com/cdn/shop/files/FB-IMG_1739970665177.jpg?v=1739970864&width=1200",
       "description": "Velvet tufted ottoman with hidden storage space.",
       "category": "Living Room",
       "stock": 7
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Recliner Armchair",
       "price": 22000,
-      "image": "https://example.com/images/recliner-armchair.jpg",
+      "image": "https://www.gemellicollections.com/cdn/shop/files/rn-image_picker_lib_temp_25edfe38-fcd4-4311-8a91-1dd59e6977af.jpg?v=1752213932&width=1200",
       "description": "Ergonomic recliner with adjustable back and footrest.",
       "category": "Living Room",
       "stock": 6
@@ -58,7 +58,7 @@
       "id": 7,
       "name": "Glass TV Stand",
       "price": 11000,
-      "image": "https://example.com/images/glass-tv.jpg",
+      "image": "https://img.kilimall.com/c/obs/seller/100006602/goods_image/250221152513_633cb18e1a258354232d38f9af251c63.jpg?x-image-process=image/format,webp/resize,w_720#",
       "description": "Tempered glass TV stand with chrome accents.",
       "category": "Living Room",
       "stock": 9
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Rustic Wall Shelf",
       "price": 5000,
-      "image": "https://example.com/images/rustic-shelf.jpg",
+      "image": "https://malpaenterprises.com/wp-content/uploads/2025/07/corner-bookshelf-2.jpg",
       "description": "Reclaimed wood wall shelf for books and decor.",
       "category": "Living Room",
       "stock": 15
@@ -76,7 +76,7 @@
       "id": 9,
       "name": "Contemporary Side Table",
       "price": 7000,
-      "image": "https://example.com/images/contemporary-side.jpg",
+      "image": "https://i.pinimg.com/736x/85/b6/69/85b6694782a66f720bbd245eaed60a9f.jpg",
       "description": "Compact side table with matte black finish.",
       "category": "Living Room",
       "stock": 11
@@ -85,8 +85,8 @@
       "id": 10,
       "name": "Fabric Loveseat",
       "price": 28000,
-      "image": "https://example.com/images/fabric-loveseat.jpg",
-      "description": "Two-seater fabric loveseat with soft cushions.",
+      "image": "https://fairdealfurniture.co.ke/wp-content/uploads/2025/04/1-1.webp",
+      "description": "Cozy fabric loveseat with plush cushions.",
       "category": "Living Room",
       "stock": 4
     },
@@ -94,7 +94,7 @@
       "id": 11,
       "name": "Industrial Console Table",
       "price": 16000,
-      "image": "https://example.com/images/industrial-console.jpg",
+      "image": "https://pogofurniture.co.ke/wp-content/uploads/2025/06/c701db1c-8490-424e-af13-b4f191ed8933.png",
       "description": "Metal and wood console table with open shelving.",
       "category": "Living Room",
       "stock": 8
@@ -103,7 +103,7 @@
       "id": 12,
       "name": "Patterned Area Rug",
       "price": 9500,
-      "image": "https://example.com/images/patterned-rug.jpg",
+      "image": "https://tremorhouseholds.co.ke/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-18-at-9.45.40-PM.jpeg",
       "description": "Colorful woven rug to brighten up your space.",
       "category": "Living Room",
       "stock": 14
@@ -112,7 +112,7 @@
       "id": 13,
       "name": "Wall-Mounted Bookshelf",
       "price": 13000,
-      "image": "https://example.com/images/wall-bookshelf.jpg",
+      "image": "https://airlandfurniture.co.ke/wp-content/uploads/2025/04/IMG-20221010-WA0014.jpg",
       "description": "Floating bookshelf with minimalist design.",
       "category": "Living Room",
       "stock": 6
@@ -121,7 +121,7 @@
       "id": 14,
       "name": "Swivel Lounge Chair",
       "price": 19500,
-      "image": "https://example.com/images/swivel-chair.jpg",
+      "image": "https://barn.co.ke/officefurniture/assets/uploads/product-featured-111.jpeg",
       "description": "360-degree swivel chair with faux leather upholstery.",
       "category": "Living Room",
       "stock": 5
@@ -130,7 +130,7 @@
       "id": 15,
       "name": "Corner Sofa Set",
       "price": 58000,
-      "image": "https://example.com/images/corner-sofa.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2024/04/DSC5249-scaled.jpg?fit=2560%2C1722&ssl=1",
       "description": "L-shaped sofa set with high-density foam cushions.",
       "category": "Living Room",
       "stock": 3
@@ -139,7 +139,7 @@
       "id": 16,
       "name": "Vintage Trunk Table",
       "price": 12500,
-      "image": "https://example.com/images/trunk-table.jpg",
+      "image": "https://malpaenterprises.com/wp-content/uploads/2024/08/bedside-pedestal-1-1.jpg?_gl=1*ea1mx2*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwx-zHBhBhEiwA7Kjq6xO_K4-os8__yB_dy7VbLG3IcaC3KMQSaXUeI0TpUto9ACHO64qQfRoCfHcQAvD_BwE&gbraid=0AAAAAqLMVU1GlCk3rtz2Jojj-qOi0GHZb",
       "description": "Vintage-style trunk table with brass hardware.",
       "category": "Living Room",
       "stock": 7
@@ -148,7 +148,7 @@
       "id": 17,
       "name": "Wall Art Canvas",
       "price": 4500,
-      "image": "https://example.com/images/wall-art.jpg",
+      "image": "https://i.ebayimg.com/images/g/u48AAOSweedoXFu7/s-l1600.webp",
       "description": "Abstract canvas art to elevate your living room.",
       "category": "Living Room",
       "stock": 20
@@ -157,7 +157,7 @@
       "id": 18,
       "name": "Bean Bag Chair",
       "price": 7500,
-      "image": "https://example.com/images/bean-bag.jpg",
+      "image": "https://gemhomeaccesories.com/cdn/shop/files/rn-image_picker_lib_temp_d7db19dc-95e0-4ef1-8e9b-efa00119af54.jpg?v=1752914450&width=493",
       "description": "Oversized bean bag chair for casual lounging.",
       "category": "Living Room",
       "stock": 10
@@ -166,8 +166,7 @@
       "id": 19,
       "name": "Floating TV Cabinet",
       "price": 17000,
-      "image": "https://example.com/images/floating-tv.jpg",
-      "description": "Wall-mounted TV cabinet with hidden cable management.",
+      "image": "https://i.ebayimg.com/images/g/2u0AAeSwoHdoIAYk/s-l1600.webp",
       "category": "Living Room",
       "stock": 6
     },
@@ -175,7 +174,7 @@
       "id": 20,
       "name": "Curved Sofa",
       "price": 49000,
-      "image": "https://example.com/images/curved-sofa.jpg",
+      "image": "https://pogofurniture.co.ke/wp-content/uploads/2025/01/9-Piece-Outdoor-Patio-Large-Wicker-Sofa-Set-with-Removable-Cushions.jpg",
       "description": "Elegant curved sofa with velvet upholstery.",
       "category": "Living Room",
       "stock": 4
@@ -184,7 +183,7 @@
       "id": 21,
       "name": "Marble Side Table",
       "price": 9500,
-      "image": "https://example.com/images/marble-side.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2025/03/stellar-scaled.jpg?fit=2560%2C1707&ssl=1",
       "description": "Round marble side table with brass legs.",
       "category": "Living Room",
       "stock": 9
@@ -193,8 +192,8 @@
       "id": 22,
       "name": "Hanging Chair",
       "price": 18500,
-      "image": "https://example.com/images/hanging-chair.jpg",
-      "description": "Suspended rattan chair with cozy cushions.",
+      "image": "https://www.shutterstock.com/shutterstock/photos/2536289449/display_1500/stock-photo-the-charming-look-of-the-rattan-wicker-chandelier-against-the-backdrop-of-a-combination-of-wooden-2536289449.jpg",
+      "description": "Stylish hanging chair for indoor or outdoor use.",
       "category": "Living Room",
       "stock": 3
     },
@@ -202,7 +201,7 @@
       "id": 23,
       "name": "Faux Fur Throw",
       "price": 3500,
-      "image": "https://example.com/images/faux-fur.jpg",
+      "image": "https://www.gemellicollections.com/cdn/shop/files/IMG-6890.jpg?v=1757356795&width=1200",
       "description": "Soft faux fur throw blanket for added comfort.",
       "category": "Living Room",
       "stock": 18
@@ -211,7 +210,7 @@
       "id": 24,
       "name": "Geometric Bookshelf",
       "price": 14500,
-      "image": "https://example.com/images/geometric-shelf.jpg",
+      "image": "https://foter.com/photos/449/bajulal-geometric-storage-bookcase.jpg?s=lbx",
       "description": "Modern bookshelf with geometric compartments.",
       "category": "Living Room",
       "stock": 5
@@ -220,7 +219,7 @@
       "id": 25,
       "name": "Compact Media Unit",
       "price": 15500,
-      "image": "https://example.com/images/media-unit.jpg",
+      "image": "https://fairdealfurniture.co.ke/wp-content/uploads/2025/05/1-673.webp",
       "description": "Space-saving media unit with sliding doors.",
       "category": "Living Room",
       "stock": 7
@@ -229,7 +228,7 @@
       "id": 26,
       "name": "Canopy Bed Frame",
       "price": 38000,
-      "image": "https://example.com/images/canopy-bed.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2024/03/WINDSOR-KING-BED-scaled-1.jpg?fit=2560%2C1707&ssl=1",
       "description": "Elegant canopy bed with sheer drapes and a mahogany frame.",
       "category": "Bedroom",
       "stock": 4
@@ -238,7 +237,7 @@
       "id": 27,
       "name": "Nightstand with Drawer",
       "price": 9500,
-      "image": "https://example.com/images/nightstand.jpg",
+      "image": "https://tremorhouseholds.co.ke/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-02-at-3.47.16-PM.jpeg",
       "description": "Compact nightstand with a single drawer and open shelf.",
       "category": "Bedroom",
       "stock": 10
@@ -247,8 +246,7 @@
       "id": 28,
       "name": "Upholstered Headboard",
       "price": 12000,
-      "image": "https://example.com/images/headboard.jpg",
-      "description": "Soft fabric headboard with button tufting.",
+      "image": ".https://m.media-amazon.com/images/I/71eLxYnzHxL._AC_SL1200_.jpg",
       "category": "Bedroom",
       "stock": 6
     },
@@ -256,7 +254,7 @@
       "id": 29,
       "name": "Double Wardrobe",
       "price": 28000,
-      "image": "https://example.com/images/wardrobe.jpg",
+      "image": "https://fairdealfurniture.co.ke/wp-content/uploads/2025/05/1-458-scaled.webp",
       "description": "Spacious wardrobe with hanging and drawer sections.",
       "category": "Bedroom",
       "stock": 5
@@ -265,7 +263,7 @@
       "id": 30,
       "name": "Memory Foam Mattress",
       "price": 22000,
-      "image": "https://example.com/images/mattress.jpg",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2025/05/iluxe-c-scaled.jpg?fit=2560%2C1460&ssl=1",
       "description": "Queen-size memory foam mattress with cooling gel.",
       "category": "Bedroom",
       "stock": 8
@@ -274,7 +272,7 @@
       "id": 31,
       "name": "Vanity Table Set",
       "price": 18500,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlD6bISsmx_ogDfNZctU9Rrud00Cc0kr9kNg&s",
+      "image": "https://image.kilimall.com/kenya/shop/store/goods/6411/2023/01/16750269906080ab05d1795f54a75808e1314183f9881.jpg?x-image-process=image/format,webp/resize,w_720#",
       "description": "Vanity table with mirror and matching stool.",
       "category": "Bedroom",
       "stock": 3
@@ -283,7 +281,7 @@
       "id": 32,
       "name": "Underbed Storage Drawers",
       "price": 7500,
-      "image": "data:image/jpeg;base64,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",
+      "image": "https://nilababyshop.com/wp-content/uploads/2022/05/IMG-20250830-WA0041.jpg",
       "description": "Set of two rolling drawers for underbed storage.",
       "category": "Bedroom",
       "stock": 12
@@ -292,7 +290,7 @@
       "id": 33,
       "name": "Bedside Lamp",
       "price": 4500,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1E28rF10STPR68lBgStr-2Ths5AJRcj4I7A&s",
+      "image": "https://www.gemellicollections.com/cdn/shop/files/rn-image_picker_lib_temp_3e474725-719b-4dbf-a833-a4e422537e5e.jpg?v=1758546008&width=1200",
       "description": "Ceramic lamp with linen shade for soft lighting.",
       "category": "Bedroom",
       "stock": 15
@@ -301,7 +299,7 @@
       "id": 34,
       "name": "Dresser with Mirror",
       "price": 26000,
-      "image": "https://example.com/images/dresser.jpg",
+      "image": "https://nilababyshop.com/wp-content/uploads/2025/08/IMG-20250804-WA0318-600x800.jpg",
       "description": "Six-drawer dresser with attached mirror.",
       "category": "Bedroom",
       "stock": 4
@@ -346,7 +344,7 @@
       "id": 39,
       "name": "Tufted Bench",
       "price": 11000,
-      "image": "data:image/jpeg;base64,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",
+      "image": "https://i0.wp.com/victoriahomestore.co.ke/wp-content/uploads/2025/03/brogan-ottoman.jpg?fit=2560%2C1707&ssl=1",
       "description": "Bedroom bench with velvet upholstery and storage.",
       "category": "Bedroom",
       "stock": 7
@@ -355,7 +353,7 @@
       "id": 40,
       "name": "Curtain Rod Set",
       "price": 3500,
-      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhIVFRUVFxUWGBcXFRcVFRcVFRcWFxcXFRUdHSggGBolHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQGisdHx0tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKystLS0tLS0tLSstLS03LS0tK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQYBB//EAEUQAAIBAgMEBwUFBAoBBQEAAAECAAMRBBIhBTFBUQYTImFxgZEyobHB0RQjUnLwByRC4RUzYoKDkqKywtLxQ0Rjc5MW/8QAGAEBAQEBAQAAAAAAAAAAAAAAAQACAwT/xAAcEQEBAQEAAwEBAAAAAAAAAAAAARECITFBElH/2gAMAwEAAhEDEQA/AMwCGRYIb4enMtDIsKiwaRimIFdKfdGEpiUQQ6iRWSmIZEHdKKIwiSSLTHIQi0xynqrCqsNSioOUJ1Y7pLSwlSrkHKWsOUhkUSSZZ6AOU9lrSSvVjlPTTEIFkPdBBil3T1kEhHfJaSUyDlKMByhSeQlSOcdQBUSvVrxhy/IRDFY5V36nkP1pGRm0R8vARDF4xF/tNyEz8VtB6h7O7XcbDhvf/rfxESZBx7XcNFv4fxHxuYs7omIxrPu3dxsPN+P931iTqOOp5DRb+HHzuY31LHfoOX8pbqAOH1haZCOZ+/3z2N9XJDThcDUw6CCA1PjDIJoDoIxTMBTEYWBgyQ6mBpiMoJEWmsOsEkMggl1JhVMqolxIvRIBPfOWtBKZZa0sBLKsUoFhAsuJZUggrTxxGTTgq4sJIoTLqsRw2L62mtZNVZnUHvRivwAPnJUxyJ7RueQ1901jP6O3tuimKxqLoTc8h9Jk4rar1NKY07vm270v5RJsO291Zu7KQvn+LzvLMG2nMRtJ6mibu46eb/8AW/iIkaY/i7XcNFv8WPjeFRSd+g/XD6xulSA3fzlaZyROHZt+g5fyhFoAfrWO5ZRkmNakwoyQbCNMsE6yJa08hrSSRHiYRILifGGUzo5joYenF0MPTMGjSRimItTMOkkaQQ6iL0zDob7oIZJa08W0IqyKAT1VnoM9AgllSECyi3hUWSeokMBPFPIQWKxaUx2214KNSfAcY4LcGt5znOmuLyYdwp7bWQW4Zja8tiNsVKnZpCw7re9tw957pjbTw5am3azOLMAN11Oa1zqT+rCOYzutXoJhmTD1cDXGrIcRSPLgR3EED1M5+w0vmqFiAqKPaY7ltftHxNvCdR1w6zD11OhwuI9AqmfN02jVXD02W61agNNDxVbZqtQcmysijxeQddWOHpEUsQ9TE4g/+1wjFKdPS9q1ZbMx3X1tr7NtZo4Khhr5jgKlAjXPQxfX1F72pE9oc9G8Jj9H9mLQpW/jbV2OpPGxP6ubmaQqWPIj1BmdanLYxmzEqpmplWfKaismiV6a2DEL/BUW4uvePAYVGaOH2kKPW1eFP7PircBnqHD4iw4ZlJa3OZGycR1lNan4gSPC5lTz/DuWVKw8qwmWijrAsscZYFliimWSGyySTGO8+JhacoRqfEwqCdGBUh1gUEMggR0jCGLpDoZIzThwYqjw6PJGEvCg98WDyyEc4EyGhEMWTfzl62KRB22t3Dee4cTLBptBPMRiUpjtt4Aak+W8zFrbXd+zSWw58fM7l87nuiy0Be7nMTwBNvAtvbw3d0cZ3T1ba9Sp2aS2HPS/mdy+890V+zi/aOdmNrA6E8ASdW8N3cIwqG34RyH0+vpK1guUqNCRo3EHgQeFjrD9H80IUKjiyBQACdWCIqrvZ2OiqNOZ13StDCVm/qWwtTgHp1jUXMfZSpoDTDHQPYreUYCrSyu+uJXD12pBTfsOOuQW1Cu2Vx425TQpOQyW/EiWGgyuwRkA4AgkW8OQlapGJsfH58I/ZKGk+LpBG9pOtoucht+F0dfITCOGAfC0+VK/+ds4PoQJu5SVq1d3XV1qG27SjiHc+edD/iCZRUnG014UsPh1P5zQpMR4xDax1IvRcKbNYMOPsEMRbjoDpA19pjNZqFVHNiEFN3Bvr90ygh05HlH6b23RmjtSqiladV6Y5IVsL/hVlYL4Cw7pmN3fjA6TJVo4J0qLlxe0GpUqNA+2tCk2Ys4Hs77nlpfW80tl4IUqSUxuRVW/OwteUwuz0FVq7F6lZtDVqualS34QT7K9ygCaFoWqTHhEoRLyWgQiIJ1hyJUyRbL3T2FyySTnDvPiYVIFhqfEwtMzqwOkMkChhlgRlMKpgFMIokjCtCK8XUT2pXVBdmt3cTIabQ/rfPauIVBdyB3DeZjPtJ2JWmtvj58F89e6DFIDVyWJ0yrmZid9tBmc6HQDyjg1oVNqO3ZpLbhfj58F89e6DSgL3c5ieAJ9C28+G7ukwLioCE0C6FQpBHdbyP0jyqF4WPfvhbhnOpToki3sjkPp+vCHRQu714xd68RO0C7dXRRq1T8KagfmbcPee6Y81rJGjXrb/Bj/AJRf6TnNp7SK4gLvpFA4sbXG4i/DtA68NZvv0Yxi5HrBL9ZRcID2AquRUpuebBlN9dKbTM6WbGGGw1JiS/UmshucrMt3qILjW4zE/wB4DgZrMZtVw9Z6tSpieoamauVAqq2RKdMKo7Vra5V7rX52Vw1XYZaTDNY5nDLkooQQ1RqmqhrXA3hb3PaAU4nRuvSqrmp1aAO8jE0RmX/EFIqR4tebWISmwArY+gEBuFpFqqgjcVp00TK3eGEsGmKGSuy0UNqSq2Z7Zfu+ya9a29VyKiLfWwS+8E8Z/SlT7VVxDLZarVKg09kOVyC3MU8gsfxDvnSYvaSmm2HwtNlptbrqlTKKlQDUBxoEpak5dFOt21IYnRjoq2NdSb/ZkN2qHTrnuTZNASoJPa4kndoApytTbld2+7WyjebZjbvJGnlaPf8A9MOxRpUWq130AzBF7y1geyNTPpfThcHgcC7FEQAWRQNXfgBxJnzP9nWymKvjKo7VXSnfhTvvH5j7lHOF8GeXWYRHyjPlzW1yZgt/7OYk28T9IYwhEqRMOik8lwJCJAMyphCJ5aSBnsvaeSTl39o+J+Muhgn9o+J+Mus6uY6tCqxgUWWaoq6k2+MDppDPalZVHaNvjM1sazdmmLeWv8vP3yU8Nrdzc8gfi3yFvCI0d8e7dmmLeWvnwHnr3StPD63c3PIH3Ft58BbwjFKibW0Uchp7owiATP6U5UpUTu0VeQ09368I/g9lmocoFYBxYNRYo1wRdWqg9hdbtxsg0sdVWqWgqu2sRkahhqpVjfMFAJC2IbW11PavoQYS+WsTp/iEVeqwxuyFxVGc5lGYBUYNUYvlYPcrpre0zcPtRaVJKVmeoEp9hb37SKwux0F79513Gbuy+hIdOo2kWo1EINOoCuWqttQHOmYctD3TUrvgMDiOtZBURqVIUnBDXq4YGk4J3ZsvVG/jGjXmxOhFauBUxjmmh16lN5HJ2+XuE6DG7Y2dsxMi5FIHsJYufzHh5z5x0h/aRi8QTTw46pN3Z9rzf6WnKfZB7eIqXvwvvPxM34jPt3GL/adVr1lRaWWgTZgBmfKdMwJ0JXfbQG1jvnK9Kemz1s9HqwL2Dg3NqqHSrTvquZdCOIZzvfTR6P0Uar1TU2pjJmW9gX3X04Cxv3zpKuycNfrXp07oPbIAso/E3EDvmb01+XE9DdkVGYuuZOPaS9PdqMrdlx/5nRvjqCNlxGHpBr2zXemrEcAxJRW8QO641i2L2xVrsy4PMKVMC7qtixPHddV003XjWwNpkVP3ikK6MAtRGUEuP4XAOhcbr8RpwEzp/Pg0u0cDTemj7Peoz3NNXxJeixXeEzAUi3cJp43p3tIjJhtmImlg1TEIyj+4tvjJtapQag9LBmnWoWucObivhKw7S1VpntqoNiVI01O688wNyqkixIFxyPEeRvG3BzJXPHoxisZVGI2rX622q0Ev1Y7idNO4DXnOsFMAWGgG4cPAQqyETFutySF2WUKw7CUKwIVpDLkSpEUoZQwpEoRJBWklrSSDkn9o+J+MjVgu82iVbEszEIOJ8fT62ntPD63Y3PIH5/S06uQxxTMbIPr/AC87S1PD63Y3PIH/AJfS0ZoYY2tbKOQj1GgBC9YZzQaGHNrWyjkI0iBYLG4taS5iLm4AA4k7hfh490QxG10vlFzU3GmAS17X0uBca79JnzWvEOVdoU1bKSbgXNhcKO/v7h7oI7RVmC0z1rHctPtEg/Dzm9svoJUrOzVKppoCAwX22JVXsDwFmA8o3XxGy9lvbD3au9qdgwYAsQO0dw14CanI/Tn9mdC8biKLPRrKi9aT1ZupckKWOcC4vcacbTtdgvs8hsNh0VKtFHZ00ZhlXIb1Bowu43HynDftE6T4jD4mrgaBK0x1Z7OjHNSp3uRw0lP2N0HGMq1H/iw9ROYuXpaX56bohz3TrpriMbUsCRSFsiDcDbieJ7++L7AYlGoYrMcO5z3H9ZSqgZRVp30OmhU6EActd7AbHRMyuo7FR6dh7JNJyha/EErcQ7ijTObKL+bEd4BNhDfhxmPs16VNmDpURVZgVR6ZYAX1Dag+swcOy1SVan7dSmTUvdkprnzhRusQwP8AcHOdJituk6U08yb+763i2xNkVKlTJ1lKipRmLVLKqqpW9uZ1GndLKNgOE23++PiWOZVUgBeAZkQCxtaxYCL7R2hiMW1mYlAbhFHZHLQbz3m58Ju4mnsyjejRd6taoCv2h+zRVrhkPV8UzqhJPAGePtGriLrZKFFWIFKmqplYGxUou9huJJO6FaldV+yOtSosaLNapVU9k6X6skqL8SQ7nym1052MFIr00AFiGA01ve8+e1sGTlKhkKHMKhaz35+6fQm6RUquEVKlRS5QKTf22ta443JEx1fBk8suiyVUp1CqsbAgkAkFdLjkdIxSpKt7aXJJ3nU7zrMXC4hMNQHWOABcknmSTlHM9wiabWxNQfaKaEYfNkBKA5jpcseG/hI661DL2iGFxYZQw04Ecjy8I6jQKFYMiGIlWEkARKkQpEo0kHKES5lCYpW09kkkHFphzc6ZRc6RyjRAkdwCfEzP2njyFIpntEgaakA8hz5TXtnJGwaqqCSbAC58BvmQ237DMyaE6KD94BwYjcfdy13weDXEVy6OmQJTaodD2lTecx8t06KrtLZeBQ2VcTVO+9il5qc/0XoPZOxKuLCGoOrSo3ZINzaxJPoJq7QfY+ByoqCrWuACGNwxNrswNh4Cc5iekVTE7JxVZFWmyYmmqimAgCEUr2t+czgV2bXdTVa4A1B77ix1368ozwHf/tS6WYqhja2Ep1CtM9W2VeOamgOu/hOH2VQqvWpValwvW07HXUhs2/wB9J9B6RLRxWIGKKgs1NQb7hlLKNOO6Z+LUHKMy6MGAG+wB7t2sljW6Z4ZKm06tQgMDToHzKEWPP2N3fPNm7UFCorAgWKCw5B1JHumFtXaBen1t9WcL5Iri3vmVRR2R6nCmpI8bSxa67atR+zlAzVHxDMeRNS+g8zvmdWwJy8e8zY2S3XsT+EA933hJ+U1v6PHKMZcnsvZVzqI3032etPAdaNGpvSsd3tsEOv96buHwuU/rvlulWCWvgjSbQPUoA+HXU76yT55shabi9KzEb7dpgfCdHhtlkdtvu3sO0D2mA0AdPZaw0BPaAAG4CHV8Phh1dFQttOyNTbn9DFji6lTRRb3nfbwmctb2Ry21Uris4ZzluwUncabBl0O4XUkHvJltm/e4vD01sCuWkjXJF+1Y2O67sdP7U6PGdFqlVQR2nO653ngLzncLsjEZvZNIq289llZT6ggiVmCUTalJjWbrGJysVBJuSAeA4Cd3+zzaymmcBXQ9XVJ6t+GfeQ3K9hY93fMbB4LM5cU+udj2j7Kq3EgnTLvNt43cp0H9GBSGubjXTQaepnPW81j4uo2GxYo3JQkj/qT56ec6rCm4mDiayVquqtdCl2IOuoNgxFj5TewI7MrMMMESjLDWlGEGgCINhDtBESATCUIhWlTJBW8ZJax/QnkU+d4HrcTrmVBx1F+/fu8pqHD0KGGqYhbOaVSkDxuxbdfznFYrHVGJ/gXkN/nNnAVB/RlWkxKmpiVa5/CiISZ2cmz0Y6QVMTUxatp+51lQAaZmKKovzN/jOQodHcQxtUUrbff+WpnX9CMKqpUZb6uBfdcBAR73b3TT2jQB1mOusanOxh7LHU06mHtemxpndYZzrqP8Mek1dk0FrZrrmUaajsk8QOdrTPrYYMCpOlwfQED3M3qZ0eyQqUUVdwUQvWmcifZkGmQegl32ZTY57DNa1+NuV+UtVcT1qpmG8VrbHo1E6tlFt9xoQeYMFR2LTp03Q+ywIudOGn0843RBve/vjCVtbEXBmp1YOuZQ+j+zRQpLTOrb2bdduA7rLlFud+c1wFide3WUkXhTqVDrvNRlUX/APzhgh4Tq4BsotEcXUvQIuNKlLfyFRCT6fCPUgc+U7iNPGC+xntpuDaqQTcNb5/OScdS2f2r3/Qm3svA9q1o7h8KMo0jlCmAwM1gbmEwIyX4iZ+0+jtMo9YgG5zWtp2mF7jjvnQbO9gzzaOuFcchb0Yfyl36XPty2Hp2G6WrppCUBCus8z0uIr1Hp0zUZSBmViCCDlZadiByv8Z1eAYEaT5zj8TUfDZHe5WsRa/aKDrLBuYBUW8uU+gbD/qk/KvwE1WY05RpYypmWgXEowhTBtIBGVMu0oTJPJJW8kk+ZVeiqbzWqHuGUDxNxcxTGYCoqdXcFc176jkN3lOpeoLRCubqZr9Vn8w10VqFaGXVjmJJ77nj4ZZoV67Ebh668e6Z/RMfcuf/AJG+CxzEG0OvbXPpzuOxNr750HRzEGpQQA7swJ5WY287WnO7RTeZtdBD91UB3CofeqS+DfLoBQAHM8zrIlBSb21lqtSeJUg0Ja09Vzfn4yA8TPUaSOYAMarsdwRFXwBcn3k+s1LxHAHf5fOPlZ259OHc8lKo1B4i8PTrDjAcfX4yNpEL0EGvcTb3z1Vtbxh8BSuWHf8AOHxOGFtN9x8Z0+MtHZdTeO6e497UKoseHhqQNILZ7HfwHla575NquWpPb2cvjuYH6zPXo8+2JQMY4RPDNGwZ5npcknQ9etZ3e6szNYC28k2J8501CkFAA0AhWM8lox6ZUz0wb1BIvDBu0HVxIizsx13Dv+kZNGjswnhihuOPGMqdJWYpXkkl5IJxDYe49o68gBEcVTtexOk2RStMrHDfFL9Cqx+/pngyt/mBB/2ia2MWc/0Ov19blkX1zG3znR40aSonpzWPm10P7NAn8VRj7lHymNtLjN7oxT/d0785/wBbfyj8X1rsJElm0EEH1gTLHSRIPNCUzJNHAHX0+M1ymkxtnntCbwFx5Tpz6c+/bHxTWP65mASveO4xL+nzMyAtm85thvYPG5Q1xqTob8Bu4TyrWZm1Nr8ojSOp8TD31vNfA0cLu8xHcU16NT8jfAzOwzaekfv9245o3wML6Mc7hXj6zKoNaNfagJ5ncy0E9YCLu7H+yOZ0lRS5+/Qem+anNF6izYkncLweUnefIfM8IS3n7h6S3VnibDkJucxj9Wginw492p9ZUj2x3A+me/8AxhqDi+g85SoPvPEMPev85oFau73/AC+cPT3QD7vL4a/KFpNpOfXt0iXknt/1pJMlyj1NJi42pvmjiHsJhbQflvPxiK2uiWFy02qHfUb/AEroPfm9ZoYs6QmGphEVB/CAPQRbFNpKpgbTO+dH0cP7tT8D/uacxtM6GdHsE/u1L8vxJPzl8X1p1KkoDIJ5eBGBjFIxRTGUimhhjqJ0FI9m/dOcoHdOgwbXSb5Y7J4jeZkfxec0676ny+AmfUGt/OacxsPqYcHfEsO/GMK2+bDQwh0M0aR7DflPwmThjYzVw50gXIYcE7z5DX1O4TQpgDu8NW9dwmfQPM27hoI39sRBfQd5NhMZjW/0yL8BbvOpkIUbzcxE4529hCe89hffqfS0r1DH23PgvZHr7XviDVbHounHkNW/yjXzlcNXZ891K2W4va/LcN3D1laVNVFlUDwELhD2/EEe8H5SXlSlv8z7iZfE+2vn/tPztA0zr+uQPzhsUPZPev8AuF5Gl2GpHeR66TzDtpPauhPkfcIOjpcciRMdtwa8kkkwXCYqpMqn2q9JebqfQ3PwMcxVTfEtk64lO7Mf9JiK7B2iGKaNVGiGIaRYm0zpOi2Af3el+X5mc3tKb3Ryp+70/Aj0ZpfB9bN5S8l54TIrqY1SMTWNUjJH6Rm5sxrqfGc/TabGyamhE1yz16CxDamKVH09YfHtqfGZ7PpNua9IRlWilN4RTNBoUW/XrNTBvpMOk+omlgqmki5BlqFjchRcjTtN6nQekcwmHUG9rnm3aPqd0FidKj9zN8TL0q4Gl9eQ1PpMlp5p5eBQudy5Rzbf6CX+zj+IlvcPQfOOL9RVsSovre2+2v8A4gaGLbrE7NlYstzvPZNvDWExSjKbADQ7vI/KJB7LRb8NQema0sG+Gi7do+J+JHwEJiz2NOR9bG0XrGzfrgB8zD1DdINB4g6nw+Zi6HtH19dZZn0U/wBkfAH5wAbteQ+nymevTXJvNJA5p7ObT53jGlOjYviCeSMfUqJXGvvhuia9uq3co9SxPwE0ProqjTOxDRyu8QrNAsjaW6a3Rep9wvcXH+on5zJx+4x7oq33TDk5+CmXwfXRo09zQKtpJnkTCvGKbxAND0mkmlSaamy37RH60mJTaaOzqlnHmIwX0Yx5uT4zMc6ec0MZUFzMyq2onRyFQywaADS4ijtF5o4Vt8yKTTQwbyTD2hT+9qXJtmJtuGuviYbCWG4W8J5t0AVbj+JQT46j5CK4erFmtxGnjPFqdTSRniBKxuPX3i0y6h+5bua/zjpqfERAexUHn8plr41MW3avz+ZJ+AhFbsmImpdEP9kfAD5mMUH0PhBoMnsjxI97D5CKs3aHhb3n6whbQ9zfG3/YxasdR5/L6Qvprk3nki+eSc23B43jHuiPs1PzD4SSSH1r4iZ9XjJJIsnG7o30U9h//s/4rPZJfB9b4njSSSK6/KGpbp7JJGqUewftr4ySRivobHe0ZnNvkknRxepCtPJIoalH8FPZJJm9IP6xfy/MzPo75JIxmtCnuljJJEBnj4RYf+r4fMySTNanoan/AFVPwH+4RjDbj4SSQanoHg3iP+MWrcPH5GeSQvox7JJJObo//9k=",
+      "image": "https://image.kilimall.com/kenya/shop/store/goods/7995/2023/09/16939379364541a274edeac3e41e08796d406534286f5.jpg?x-image-process=image/format,webp/resize,w_720#",
       "description": "Adjustable curtain rod with decorative finials.",
       "category": "Bedroom",
       "stock": 14
