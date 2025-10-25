@@ -1,39 +1,22 @@
-// src/components/Footer.jsx
-import React from "react";
-import { Link } from "react-router-dom";
- // Optional: create this for styling
+import React from 'react';
 
-const Footer = () => {
+function Footer() {
+  const styles = {
+    footer: {
+      backgroundColor: '#2c3e50',
+      color: '#ecf0f1',
+      padding: '20px',
+      textAlign: 'center',
+      fontSize: '14px',
+      fontFamily: 'Arial, sans-serif'
+    }
+  };
+
   return (
-    <footer className="footer">
-      <div className="footer-content">
-
-        {/* Copyright */}
-        <p className="copyright">© 2025 WoodenAura. All rights reserved.</p>
-
-        {/* Quick Links */}
-        <nav className="footer-links">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-
-        {/* Social Media Icons */}
-        <div className="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-facebook-f" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-instagram" aria-hidden="true"></i>
-          </a>
-        </div>
-
-      </div>
+    <footer style={styles.footer}>
+      <p>© 2025 WoodenAura. All rights reserved.</p>
     </footer>
   );
-};
+}
 
 export default Footer;

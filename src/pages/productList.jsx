@@ -1,91 +1,75 @@
-import { useEffect, useState } from 'react';
-import ProductCard from '../components/productCard';
+import React, { useState, useEffect } from 'react';
 import SearchBar from '../components/searchBar';
+import ProductCard from '../components/productCard';
 
 function ProductList() {
-  const [products, setProducts] = useState([]);         // All products from API
-  const [filtered, setFiltered] = useState([]);         // Products after search/filter
-  const [searchTerm, setSearchTerm] = useState('');     // Search input
-  const [category, setCategory] = useState('All');       // Selected category
-  const [maxPrice, setMaxPrice] = useState(100000);      // Price filter
+  const [products, setProducts] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState(''); // ✅ new state
 
   // Fetch products from JSON Server
   useEffect(() => {
-    fetch("http://localhost:3000/products")
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts(data);
-        setFilteredProducts(data); // initialize filtered list
-      })
-      .catch((err) => console.error("Error fetching products:", err));
+    fetch('http://localhost:3001/products')
+      .then(res => res.json())
+      .then(data => setProducts(data));
   }, []);
 
-  
-  // Apply filters whenever search/category/price changes
-  useEffect(() => {
-    let result = products;
+  // ✅ Filter by name and category
+  const filtered = products.filter(p => {
+    const matchesName = p.name.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesCategory = selectedCategory === '' || p.category === selectedCategory;
+    return matchesName && matchesCategory;
+  });
 
-    // Filter by search
-    if (searchTerm) {
-      result = result.filter(product =>
-        product.name.toLowerCase().includes(searchTerm.toLowerCase())
-      );
+  // ✅ Inline styles
+  const styles = {
+    container: {
+      padding: '30px',
+      fontFamily: 'Arial, sans-serif'
+    },
+    dropdown: {
+      marginBottom: '20px',
+      padding: '10px',
+      borderRadius: '6px',
+      border: '1px solid #ccc',
+      fontSize: '16px'
+    },
+    grid: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+      gap: '20px'
     }
-
-    // Filter by category
-    if (category !== 'All') {
-      result = result.filter(product => product.category === category);
-    }
-
-    // Filter by price
-    result = result.filter(product => product.price <= maxPrice);
-
-    setFiltered(result);
-  }, [searchTerm, category, maxPrice, products]);
+  };
 
   return (
     <div style={styles.container}>
-      <h2>🪑 Our Furniture Collection</h2>
+      <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '20px', color: 'cadetblue' }}>
+        🪑 Our Furniture Collection
+      </h2>
 
-      {/* Search bar */}
-      <SearchBar onSearch={setSearchTerm} />
+      <SearchBar
+        value={searchTerm}
+        onChange={setSearchTerm}
+        placeholder="Search for chairs, tables, etc."
+      />
 
-      {/* Filters */}
-      <div style={styles.filters}>
-        <label>
-          Category:
-          <select value={category} onChange={e => setCategory(e.target.value)}>
-            <option>All</option>
-            <option>Tables</option>
-            <option>Chairs</option>
-            <option>Sofas</option>
-            <option>Beds</option>
-          </select>
-        </label>
+      {/*  Category dropdown */}
+      <select
+        value={selectedCategory}
+        onChange={(e) => setSelectedCategory(e.target.value)}
+        style={styles.dropdown}
+      >
+        <option value="">All Categories</option>
+        <option value="Storage">Storage</option>
+        <option value="Dining">Dining</option>
+        <option value="Bedroom">Bedroom</option>
+        <option value="Living Room">Living Room</option>
+      </select>
 
-        <label>
-          Max Price:
-          <input
-            type="range"
-            min="1000"
-            max="100000"
-            step="1000"
-            value={maxPrice}
-            onChange={e => setMaxPrice(Number(e.target.value))}
-          />
-          <span>KES {maxPrice.toLocaleString()}</span>
-        </label>
-      </div>
-
-      {/* Product grid */}
       <div style={styles.grid}>
-        {filtered.length === 0 ? (
-          <p>No products found.</p>
-        ) : (
-          filtered.map(product => (
-            <ProductCard key={product.id} product={product} />
-          ))
-        )}
+        {filtered.map(product => (
+          <ProductCard key={product.id} product={product} category={product.category} />
+        ))}
       </div>
     </div>
   );
