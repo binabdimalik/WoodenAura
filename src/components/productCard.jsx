@@ -52,4 +52,3 @@ function ProductCard({ product, onAddToCart }) {
 }
 
 export default ProductCard;
-urgent
