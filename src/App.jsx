@@ -1,21 +1,31 @@
-
-import Header from './Components/Header.jsx';
-import ProductList from './Components/ProductList.jsx';
-
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import cartCatalogue from './pages/cartCatalogue'
+import Header from './components/header';
+import Footer from './components/footer';
+import Home from './pages/home';
+import ProductList from './pages/productList';
+import ProductDetails from './pages/productDetails';
+import CartCatalogue from './pages/cartCatalogue';
+import About from './components/about';
+import Contact from './pages/contact';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <Router>
       <Header />
-      <ProductList />
-    <cartCatalogue />   
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<ProductList />} />
+        <Route path="/products/:id" element={<ProductDetails />} />
+        <Route path="/cart" element={<CartCatalogue />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
-    }
+}
 
 export default App;
+

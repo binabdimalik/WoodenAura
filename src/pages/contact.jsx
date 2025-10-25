@@ -1,7 +1,7 @@
 // src/pages/Contact.jsx
 import React, { useState } from "react";
-import Button from "../components/Button"; // Make sure your Button component path is correct
-import "./contact.css"; // styling
+import Button from "../components/button";// Make sure your Button component path is correct
+// styling
 
 //this create small piece of memory inside the component called formdata .
 const Contact = () => {

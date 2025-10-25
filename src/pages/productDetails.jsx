@@ -1,84 +1,71 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import Button from '../components/button'; // Adjust path if needed
 
-const ProductDetails = () => {
-  const { id } = useParams(); // get product ID from the URL
+function ProductDetails() {
+  const { id } = useParams(); // Get product ID from URL
   const [product, setProduct] = useState(null);
-  const [related, setRelated] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-  // Fetch product data by ID
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/products/${id}`);
+        const res = await fetch(`http://localhost:3001/products/${id}`);
+        if (!res.ok) {
+          throw new Error('Product not found');
+        }
         const data = await res.json();
         setProduct(data);
-
-        // Optionally fetch related products
-        const relatedRes = await fetch(`http://localhost:3000/products`);
-        const relatedData = await relatedRes.json();
-        const filtered = relatedData.filter((item) => item.id !== data.id);
-        setRelated(filtered.slice(0, 3)); // show 3 related items
-      } catch (error) {
-        console.error("Error fetching product details:", error);
+      } catch (err) {
+        console.error('Error fetching product details:', err);
+        setError(err.message);
+      } finally {
+        setLoading(false);
       }
     };
+
     fetchProduct();
   }, [id]);
 
-  if (!product) return <p>Loading product details...</p>;
+  if (loading) return <p>Loading product details...</p>;
+  if (error) return <p>Error: {error}</p>;
+  if (!product) return <p>No product found.</p>;
 
   return (
-    <div className="p-6">
-      {/* Product Details */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <img
-          src={product.image}
-          alt={product.name}
-          className="w-full h-auto rounded-2xl shadow-md"
-        />
-
-        <div>
-          <h2 className="text-3xl font-bold mb-3">{product.name}</h2>
-          <p className="text-gray-600 mb-4">{product.description}</p>
-
-          <ul className="mb-4 text-sm text-gray-700">
-            <li><strong>Material:</strong> {product.material}</li>
-            <li><strong>Dimensions:</strong> {product.dimensions}</li>
-          </ul>
-
-          <p className="text-2xl font-semibold mb-4">Ksh {product.price}</p>
-
-          <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-xl transition">
-            Add to Cart
-          </button>
-        </div>
-      </div>
-
-      {/* Related Products */}
-      {related.length > 0 && (
-        <div className="mt-12">
-          <h3 className="text-xl font-semibold mb-4">Related Products</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {related.map((item) => (
-              <div
-                key={item.id}
-                className="border rounded-xl p-3 hover:shadow-lg transition"
-              >
-                <img
-                  src={item.image}
-                  alt={item.name}
-                  className="w-full h-40 object-cover rounded-lg mb-2"
-                />
-                <h4 className="font-medium">{item.name}</h4>
-                <p className="text-sm text-gray-600">Ksh {item.price}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+    <div style={styles.container}>
+      <img
+        src={product.image || 'placeholder.jpg'}
+        alt={product.name}
+        style={styles.image}
+      />
+      <h2>{product.name}</h2>
+      <p><strong>Price:</strong> Ksh {product.price?.toLocaleString()}</p>
+      <p><strong>Description:</strong> {product.description}</p>
+      <p><strong>Material:</strong> {product.material || 'N/A'}</p>
+      <p><strong>Dimensions:</strong> {product.dimensions || 'N/A'}</p>
+      <Button label="Add to Cart" onClick={() => alert('Added to cart!')} />
     </div>
   );
-};
+}
 
 export default ProductDetails;
+
+const styles = {
+  container: {
+    padding: '20px',
+    maxWidth: '600px',
+    margin: '0 auto',
+    textAlign: 'center',
+    backgroundColor: '#fff',
+    borderRadius: '8px',
+    boxShadow: '0 2px 10px rgba(0,0,0,0.1)'
+  },
+  image: {
+    width: '100%',
+    height: '300px',
+    objectFit: 'cover',
+    borderRadius: '4px',
+    marginBottom: '20px'
+  }
+};
