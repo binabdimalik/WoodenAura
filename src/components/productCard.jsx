@@ -1,62 +1,54 @@
 import React from 'react';
-import Button from './button'; // Reusable button component
-import { useNavigate } from 'react-router-dom'; // For navigation to ProductDetails
+import { useNavigate } from 'react-router-dom';
+import Button from './button';
 
-function ProductCard({ product }) {
-  const navigate = useNavigate();// This lets us change the page using code, like when someone clicks a button
+function ProductCard({ product, onAddToCart }) {
+  const navigate = useNavigate();
 
-  // Function to handle "View Details" button click
-  const handleViewDetails = () => {
-    // Navigate to the product details page using the product ID
-    navigate(`/products/${product.id}`);
+  const styles = {
+    card: {
+      backgroundColor: '#ffffff',
+      borderRadius: '10px',
+      boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+      padding: '20px',
+      textAlign: 'center',
+      fontFamily: 'Arial, sans-serif'
+    },
+    image: {
+      width: '100%',
+      height: 'auto',
+      objectFit: 'cover',
+      borderRadius: '8px'
+    },
+    name: {
+      fontSize: '18px',
+      fontWeight: 'bold',
+      marginTop: '10px',
+      color: '#2c3e50'
+    },
+    price: {
+      color: '#7f8c8d',
+      marginBottom: '10px'
+    },
+    buttonGroup: {
+      marginTop: '10px',
+      display: 'flex',
+      justifyContent: 'center',
+      gap: '10px'
+    }
   };
 
   return (
     <div style={styles.card}>
-      {/* Product image */}
-      <img
-        src={product.image}
-        alt={product.name}
-        style={styles.image}
-      />
-
-      {/* Product name */}
+      <img src={product.image} alt={product.name} style={styles.image} />
       <h3 style={styles.name}>{product.name}</h3>
-
-      {/* Product price */}
-      <p style={styles.price}>Ksh {product.price.toLocaleString()}</p>
-
-      {/* View Details button */}
-      <Button label="View Details" onClick={handleViewDetails} />
+      <p style={styles.price}>Ksh {product.price?.toLocaleString()}</p>
+      <div style={styles.buttonGroup}>
+        <Button label="View Details" onClick={() => navigate(`/products/${product.id}`)} />
+        {onAddToCart && <Button label="Add to Cart" onClick={onAddToCart} />}
+      </div>
     </div>
   );
 }
-
-// Inline styles for layout and design
-const styles = {
-  card: {
-    border: '1px solid #ddd',
-    borderRadius: '8px',
-    padding: '16px',
-    textAlign: 'center',
-    boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
-    backgroundColor: '#fff',
-  },
-  image: {
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-    borderRadius: '6px',
-  },
-  name: {
-    fontSize: '18px',
-    margin: '12px 0 6px',
-  },
-  price: {
-    fontSize: '16px',
-    color: '#444',
-    marginBottom: '12px',
-  },
-};
 
 export default ProductCard;
