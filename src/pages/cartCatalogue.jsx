@@ -30,7 +30,6 @@ function CartCatalogue() {
   };
 
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  
 
   const styles = {
     container: {
@@ -38,55 +37,64 @@ function CartCatalogue() {
       width: '100%',
       maxWidth: '1200px',
       margin: '0 auto',
-      padding: isMobile ? '15px' : '30px',
+      padding: isMobile ? '15px' : '40px',
       boxSizing: 'border-box',
-      fontFamily: 'Arial, sans-serif',
-      backgroundColor: '#f9f9f9',
+      fontFamily: 'Segoe UI, sans-serif',
+      background: 'linear-gradient(to right, #FFF8F0, #FFE4C4)',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-      color: 'black'
+      color: '#4B3F2F'
     },
     grid: {
       display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
-      gap: '20px',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+      gap: '24px',
       width: '100%'
     },
     cartItem: {
-      backgroundColor: '#fff',
+      backgroundColor: '#FFF8F0',
       padding: '20px',
-      borderRadius: '10px',
-      boxShadow: '0 2px 6px rgba(0,0,0,0.1)',
+      borderRadius: '12px',
+      boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
       textAlign: 'center',
       width: '100%',
       maxWidth: '400px',
-      margin: '0 auto'
+      margin: '0 auto',
+      border: '1px solid #D2691E'
     },
     image: {
       width: '100%',
       maxWidth: '120px',
       height: 'auto',
       objectFit: 'cover',
-      borderRadius: '8px'
+      borderRadius: '8px',
+      marginBottom: '12px'
     },
     total: {
       fontSize: isMobile ? '18px' : '20px',
       fontWeight: 'bold',
-      marginTop: '20px',
-      color: '#2c3e50',
+      marginTop: '24px',
+      color: '#D2691E',
       textAlign: 'center'
     },
     paymentOptions: {
       marginTop: '20px',
       display: 'flex',
       flexWrap: 'wrap',
-      gap: '10px',
+      gap: '12px',
       justifyContent: 'center'
     },
     button: {
       width: 'auto',
-      padding: '10px 20px'
+      padding: '12px 24px'
+    },
+    title: {
+      fontSize: isMobile ? '20px' : '28px',
+      fontWeight: '700',
+      marginBottom: '24px',
+      textAlign: 'center',
+      color: '#A0522D'
     }
   };
 
@@ -112,14 +120,7 @@ function CartCatalogue() {
         </div>
       ) : (
         <div style={{ width: '100%' }}>
-          <h2 style={{
-            fontSize: isMobile ? '20px' : '24px',
-            fontWeight: 'bold',
-            marginBottom: '20px',
-            textAlign: 'center'
-          }}>
-            🛒 Your Cart
-          </h2>
+          <h2 style={styles.title}>🛒 Your Cart</h2>
           {cart.length === 0 ? (
             <p style={{ textAlign: 'center' }}>No items in the cart.</p>
           ) : (
