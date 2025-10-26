@@ -4,7 +4,7 @@ import ProductCard from '../components/productCard';
 import Button from '../components/button';
 
 function Home() {
-  const [featured, setFeatured] = useState([]);
+  const [topSellers, setTopSellers] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -176,5 +176,5 @@ function Home() {
       </div>
     </div>
   );
-
+}
 export default Home;
