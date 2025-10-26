@@ -2,19 +2,21 @@ import React from 'react';
 
 function Button({ label, onClick, type = "button", style = {} }) {
   const defaultStyle = {
-    backgroundColor: '#27ae60',
+    backgroundColor: '#D2691E', // chocolate brown
     color: '#fff',
-    padding: '10px 20px',
-    borderRadius: '6px',
+    padding: '12px 24px',
+    borderRadius: '8px',
     border: 'none',
     cursor: 'pointer',
-    fontWeight: 'bold',
-    fontSize: '14px',
-    transition: 'background-color 0.3s ease'
+    fontWeight: '600',
+    fontSize: '15px',
+    fontFamily: 'Segoe UI, sans-serif',
+    transition: 'background-color 0.3s ease, transform 0.2s ease',
+    boxShadow: '0 4px 10px rgba(0,0,0,0.1)'
   };
 
   const hoverStyle = {
-    backgroundColor: '#219150'
+    backgroundColor: '#A0522D' // deeper brown on hover
   };
 
   return (
@@ -22,8 +24,14 @@ function Button({ label, onClick, type = "button", style = {} }) {
       type={type}
       onClick={onClick}
       style={{ ...defaultStyle, ...style }}
-      onMouseOver={e => e.target.style.backgroundColor = hoverStyle.backgroundColor}
-      onMouseOut={e => e.target.style.backgroundColor = defaultStyle.backgroundColor}
+      onMouseOver={e => {
+        e.target.style.backgroundColor = hoverStyle.backgroundColor;
+        e.target.style.transform = 'scale(1.03)';
+      }}
+      onMouseOut={e => {
+        e.target.style.backgroundColor = defaultStyle.backgroundColor;
+        e.target.style.transform = 'scale(1)';
+      }}
     >
       {label}
     </button>

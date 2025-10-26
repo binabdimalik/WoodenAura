@@ -3,33 +3,36 @@ import React from 'react';
 function About() {
   const styles = {
     container: {
-     width: '90vw',
+      width: '90vw',
       maxWidth: '1200px',
-      margin: '0 auto',
-      padding: '30px',
-      backgroundColor: '#ffffff',
-      borderRadius: '10px',
-      boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-      fontFamily: 'Arial, sans-serif',
+      margin: '40px auto',
+      padding: '40px',
+      backgroundColor: '#FFF8F0', // soft off-white
+      borderRadius: '12px',
+      boxShadow: '0 6px 16px rgba(0,0,0,0.1)',
+      fontFamily: 'Segoe UI, sans-serif',
       boxSizing: 'border-box'
     },
     title: {
-      fontSize: '28px',
-      fontWeight: 'bold',
-      marginBottom: '20px',
-      color: '#2c3e50'
+      fontSize: '32px',
+      fontWeight: '700',
+      marginBottom: '32px',
+      color: '#D2691E', // chocolate brown
+      textAlign: 'center'
     },
     section: {
-      marginBottom: '20px'
+      marginBottom: '28px'
     },
     heading: {
-      fontSize: '20px',
+      fontSize: '22px',
       fontWeight: '600',
-      color: '#34495e'
+      color: '#A0522D' // deeper brown
     },
     text: {
       fontSize: '16px',
-      color: '#7f8c8d'
+      color: '#4B3F2F', // deep walnut
+      lineHeight: '1.6',
+      marginTop: '8px'
     }
   };
 
