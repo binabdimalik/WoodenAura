@@ -1,11 +1,10 @@
-
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import ProductCard from "../components/productCard";
-import Button from "../components/button";
+import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import ProductCard from '../components/productCard';
+import Button from '../components/button';
 
 function Home() {
-  const [topSellers, setTopSellers] = useState([]);
+  const [featured, setFeatured] = useState([]);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -15,8 +14,7 @@ function Home() {
   }, []);
 
   const styles = {
-
-   wrapper: {
+    wrapper: {
       minHeight: '100vh',
       width: '100%',
       background: 'linear-gradient(to right, #FFF8F0, #FFE4C4)',
@@ -179,5 +177,4 @@ function Home() {
     </div>
   );
 
-}
 export default Home;
