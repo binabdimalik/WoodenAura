@@ -67,13 +67,17 @@ To become the **leading global brand** in handcrafted wooden furniture — admir
 ###  Project Contributors  
 
 | Name 
-|------|------|
+|
 | **Sharon Njoroge** 
 | **Peter Xervi** 
-| **Habiba** 
-| **Jeaven** 
+| **Habiba Hussein** 
+| **Jeaven Onyango** 
 | **Maheart Issack** 
-| **Abdimalik** 
+| **Abdimalik Kulow** 
+
+---
+###  License ## 
+This project is licensed under the **MIT License** — feel free to use, modify, and distribute with attribution.
 
 ---
 
@@ -95,13 +99,6 @@ npx json-server --watch db.json --port 3000
 # 5 Run the app
 npm run dev
 
-## Developer  
 
 
----
-
-###  License ## 
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute with attribution.
-
----
 
