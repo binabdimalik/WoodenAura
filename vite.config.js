@@ -10,5 +10,6 @@ export default {
     extend: {},
   },
   plugins: [],
+   base: process.env.VITE_BASE_PATH || "/WoodenAura"
 };
 
