@@ -3,12 +3,14 @@ import React from 'react';
 function Footer() {
   const styles = {
     footer: {
-      backgroundColor: '#2c3e50',
-      color: '#ecf0f1',
-      padding: '20px',
+      backgroundColor: '#D2691E', // chocolate brown
+      color: '#fff',
+      padding: '24px',
       textAlign: 'center',
-      fontSize: '14px',
-      fontFamily: 'Arial, sans-serif'
+      fontSize: '15px',
+      fontFamily: 'Segoe UI, sans-serif',
+      boxShadow: '0 -2px 8px rgba(0,0,0,0.1)',
+      marginTop: '40px'
     }
   };
 

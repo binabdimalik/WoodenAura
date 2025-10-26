@@ -7,39 +7,60 @@ function ProductCard({ product, onAddToCart }) {
 
   const styles = {
     card: {
-      backgroundColor: '#ffffff',
-      borderRadius: '10px',
-      boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-      padding: '20px',
+      background: '#FFF8F0', // soft off-white wood tone
+      borderRadius: '12px',
+      boxShadow: '0 6px 16px rgba(0,0,0,0.1)',
+      padding: '24px',
       textAlign: 'center',
-      fontFamily: 'Arial, sans-serif'
+      fontFamily: 'Segoe UI, sans-serif',
+      transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+      maxWidth: '320px',
+      margin: 'auto',
+      cursor: 'pointer',
+      border: '1px solid #D2691E'
+    },
+    cardHover: {
+      transform: 'scale(1.02)',
+      boxShadow: '0 8px 20px rgba(0,0,0,0.15)'
     },
     image: {
       width: '100%',
-      height: 'auto',
+      height: '200px',
       objectFit: 'cover',
-      borderRadius: '8px'
+      borderRadius: '10px',
+      marginBottom: '12px'
     },
     name: {
-      fontSize: '18px',
-      fontWeight: 'bold',
-      marginTop: '10px',
-      color: '#2c3e50'
+      fontSize: '20px',
+      fontWeight: '600',
+      margin: '12px 0',
+      color: '#D2691E' // chocolate brown
     },
     price: {
-      color: '#7f8c8d',
-      marginBottom: '10px'
+      fontSize: '16px',
+      color: '#FFD700', // gold
+      marginBottom: '16px'
     },
     buttonGroup: {
-      marginTop: '10px',
       display: 'flex',
       justifyContent: 'center',
-      gap: '10px'
+      gap: '12px',
+      flexWrap: 'wrap'
     }
   };
 
+  const [isHovered, setIsHovered] = React.useState(false);
+
+  const combinedCardStyle = isHovered
+    ? { ...styles.card, ...styles.cardHover }
+    : styles.card;
+
   return (
-    <div style={styles.card}>
+    <div
+      style={combinedCardStyle}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <img src={product.image} alt={product.name} style={styles.image} />
       <h3 style={styles.name}>{product.name}</h3>
       <p style={styles.price}>Ksh {product.price?.toLocaleString()}</p>

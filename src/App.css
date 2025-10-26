@@ -1,10 +1,13 @@
+/* 🌿 Root container cleanup */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  background: inherit;
+  display: flex;
+  flex-direction: column;
 }
 
+/* 🔄 Logo styling (unchanged) */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -18,6 +21,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* 🔁 Logo animation (unchanged) */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -26,17 +30,40 @@
     transform: rotate(360deg);
   }
 }
-
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
+/* 🧩 Card and docs styling (unchanged) */
 .card {
   padding: 2em;
 }
-
 .read-the-docs {
   color: #888;
+}
+
+/* 📐 Reusable layout classes */
+.full-screen-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #FFF8F0, #FFE4C4);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.centered-container {
+  width: 90vw;
+  max-width: 1200px;
+  background-color: #FFF8F0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
 }
