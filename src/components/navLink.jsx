@@ -4,19 +4,21 @@ import { NavLink as RouterNavLink } from 'react-router-dom'; // Import NavLink f
 function NavLink({ path, label }) {
   // Base style for all links
   const baseStyle = {
-    margin: '0 10px',
+    margin: '0 20px',
     textDecoration: 'none',
     fontWeight: '500',
-    color: '#34495e',
+    color: "#f5ebe0",
+    fontSize:"18px",
+    paddingbottom:"8px",
    
   };
 
   // Style when the link is active (matches current route)
   const activeStyle = {
     ...baseStyle, // Inherit base styles
-    color: '#27ae60', // Highlight color
-    fontWeight: 'bold',
-    borderBottom: '2px solid #27ae60' // Underline effect
+    color: '#d7a86e', // Highlight color
+    fontWeight: '600',
+    borderBottom: '2px solid #27ae60', // Underline effect
   };
 
   return (
