@@ -12,7 +12,7 @@ import ProductDetails from './pages/productDetails';
 import CartCatalogue from './pages/cartCatalogue';
 
 import About from './pages/about';
-import ThankYou from './pages/Thankyou';
+import ThankYou from './pages/thankyou';
 import Contact from './pages/contact'
 
 function App() {
