@@ -52,7 +52,7 @@ function ProductDetails() {
     },
     price: {
       fontSize: '18px',
-      color: '#FFD700',
+      color: 'black',
       marginBottom: '16px'
     },
     description: {

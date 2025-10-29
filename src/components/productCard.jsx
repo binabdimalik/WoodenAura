@@ -38,7 +38,7 @@ function ProductCard({ product, onAddToCart }) {
     },
     price: {
       fontSize: '16px',
-      color: '#FFD700', // gold
+      color: 'black', // gold
       marginBottom: '16px'
     },
     buttonGroup: {

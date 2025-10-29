@@ -75,7 +75,7 @@ function CartCatalogue() {
       fontSize: isMobile ? '18px' : '20px',
       fontWeight: 'bold',
       marginTop: '24px',
-      color: '#D2691E',
+      color: '#3b2d23ff',
       textAlign: 'center'
     },
     paymentOptions: {
