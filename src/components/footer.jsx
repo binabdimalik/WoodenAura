@@ -1,5 +1,4 @@
 import React from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
 import { FaInstagram } from 'react-icons/fa6';
 import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 
