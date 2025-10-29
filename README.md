@@ -85,7 +85,7 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 ```bash
 # 1 Clone the repository
-git clone https://github.com/sharon472/woodenaura.git
+git clone  git@github.com:binabdimalik/WoodenAura.git
 
 # 2 Navigate into the project folder
 cd woodenaura
@@ -94,7 +94,7 @@ cd woodenaura
 npm install
 
 # 4 Start JSON server (on port 3000)
-npx json-server --watch db.json --port 3000
+npx json-server --watch db.json --port 3001
 
 # 5 Run the app
 npm run dev
