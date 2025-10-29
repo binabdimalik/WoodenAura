@@ -35,7 +35,7 @@ function App() {
       {/* Main content area */}
       <main style={styles.main}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
           <Route path="/products" element={<ProductList />} />
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<CartCatalogue />} />
