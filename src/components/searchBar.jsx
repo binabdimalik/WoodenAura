@@ -48,4 +48,4 @@ const styles = {
   },
 };
 
-export default SearchBar;// this is like putting my work outside gor people to use it or for it to be used by the other components
+export default SearchBar;// this is like putting my work outside for people to use it or for it to be used by the other components

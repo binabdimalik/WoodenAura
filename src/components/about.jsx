@@ -1,7 +1,7 @@
 import React from "react";
 import aboutData from "../data/aboutData";
 
-function about({ title, content }) {
+function About({ title, content }) {
   return (
     <div>
       {title && <h2>{title}</h2>}
@@ -10,5 +10,5 @@ function about({ title, content }) {
   );
 }
 
-export default about;
+export default About;
 
