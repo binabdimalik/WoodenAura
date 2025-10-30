@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaInstagram } from 'react-icons/fa6';
+import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 function About() {
   const styles = {

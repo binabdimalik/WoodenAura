@@ -32,7 +32,7 @@ function Footer() {
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style={styles.icon}>
           <FaTwitter/>
         </a>
-        <a href="https://linkedIn.com" target="_blank" rel="noopener noreferrer" style={styles.icon}>
+        <a href="https://ke.linkedin.com" target="_blank" rel="noopener noreferrer" style={styles.icon}>
         </a>
           <FaLinkedin/>
       </div>
