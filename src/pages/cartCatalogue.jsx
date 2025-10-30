@@ -8,18 +8,13 @@ function CartCatalogue() {
   const [cart, setCart] = useState([]);
   const isMobile = window.innerWidth < 768;
 
-<<<<<<< HEAD
-function CartCatalogue() {
-    const [view, setView] = useState('catalogue'); //  controls which screen to show; 'catalogue' or 'cart'
-    const [products, setProducts] = useState([]); // holds the list of furniture from the server
-    const [cart, setCart] = useState([]);  // holds the items the user added
-=======
+
   useEffect(() => {
     fetch('http://localhost:3001/products')
       .then(res => res.json())
       .then(data => setProducts(data));
   }, []);
->>>>>>> origin/main
+
 
   const addToCart = (product) => {
     const exists = cart.find(item => item.id === product.id);
@@ -153,9 +148,7 @@ function CartCatalogue() {
   );
 }
 
-<<<<<<< HEAD
 
-export default  CartCatalogue;
-=======
+
 export default CartCatalogue;
->>>>>>> origin/main
+
