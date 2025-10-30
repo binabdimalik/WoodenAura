@@ -52,24 +52,6 @@ function SearchBar({ placeholder, value, onChange, onSubmit }) {
   );
 }
 
-<<<<<<< HEAD
-// this will 
-const styles = {
-  container: {
-    margin: '20px auto',
-    textAlign: 'center',
-  },
-  input: {
-    padding: '10px',
-    width: '80%',
-    maxWidth: '400px',
-    fontSize: '16px',
-    borderRadius: '5px',
-    border: '1px solid #5c5a5aff',
-  },
-};
 
-export default SearchBar;// this is like putting my work outside for people to use it or for it to be used by the other components
-=======
 export default SearchBar;
->>>>>>> origin/main
+

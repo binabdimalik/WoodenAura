@@ -10,12 +10,10 @@ import Home from './pages/home';
 import ProductList from './pages/productList';
 import ProductDetails from './pages/productDetails';
 import CartCatalogue from './pages/cartCatalogue';
-<<<<<<< HEAD
-import About from './components/about';
-=======
+
 import About from './pages/about';
 import ThankYou from './pages/thankyou';
->>>>>>> origin/main
+
 import Contact from './pages/contact';
 
 // Optional: Fallback page for unmatched routes
