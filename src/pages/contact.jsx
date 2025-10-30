@@ -1,102 +1,111 @@
-// src/pages/Contact.jsx
-import React, { useState } from "react";
-import Button from "../components/button";// Make sure your Button component path is correct
-// styling
+import React from 'react';
 
-//this create small piece of memory inside the component called formdata .
-const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: ""
-  });
-//this runs everytime you type something in the form.
-//everytime you type something in the form , it updates the corresponding field in formData based on the input's name attribute.
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+function Contact() {
+  const styles = {
+    wrapper: {
+      minHeight: '100vh',
+      width: '100%',
+      background: 'linear-gradient(to right, #FFF8F0, #FFE4C4)',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'flex-start', // changed from center
+      padding: '40px 0',
+      boxSizing: 'border-box',
+      overflowY: 'auto'
+    },
+    container: {
+      width: '90vw',
+      maxWidth: '600px',
+      padding: '30px',
+      backgroundColor: '#FFF8F0',
+      borderRadius: '12px',
+      boxShadow: '0 6px 16px rgba(0,0,0,0.1)',
+      fontFamily: 'Segoe UI, sans-serif',
+      textAlign: 'center',
+      boxSizing: 'border-box',
+      height: '100%', // ensures it stretches if needed
+      flex: 1
+    },
+    title: {
+      fontSize: '26px',
+      fontWeight: '700',
+      marginBottom: '24px',
+      color: '#D2691E'
+    },
+    input: {
+      width: '100%',
+      padding: '12px 16px',
+      marginBottom: '16px',
+      borderRadius: '8px',
+      border: '1px solid #D2691E',
+      fontSize: '16px',
+      fontFamily: 'Segoe UI, sans-serif',
+      backgroundColor: '#FFF8F0',
+      color: '#4B3F2F'
+    },
+    textarea: {
+      width: '100%',
+      padding: '12px 16px',
+      height: '120px',
+      borderRadius: '8px',
+      border: '1px solid #D2691E',
+      marginBottom: '16px',
+      fontSize: '16px',
+      fontFamily: 'Segoe UI, sans-serif',
+      backgroundColor: '#FFF8F0',
+      color: '#4B3F2F'
+    },
+    button: {
+      width: '100%',
+      padding: '12px 24px',
+      backgroundColor: '#D2691E',
+      color: '#fff',
+      border: 'none',
+      borderRadius: '8px',
+      fontWeight: '600',
+      fontSize: '16px',
+      cursor: 'pointer',
+      marginBottom: '24px'
+    },
+    locationTitle: {
+      marginTop: '30px',
+      marginBottom: '10px',
+      color: '#A0522D',
+      fontSize: '18px',
+      fontWeight: '600'
+    },
+    locationSub: {
+      marginBottom: '20px',
+      color: '#4B3F2F',
+      fontSize: '16px'
+    },
+    map: {
+      width: '100%',
+      height: '300px',
+      borderRadius: '10px',
+      border: 'none'
+    }
   };
-//stps the page from reloading when the form is submitted
-//shows a success message and resets the form fields.
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Here you can send formData to your backend or API
-    console.log("Form submitted:", formData);
-    alert("Thank you for contacting us!");
-    setFormData({ name: "", email: "", message: "" });
-  };
-//this part explains how the page will look like
+
   return (
-    <div className="contact-page">
-      <h1>Contact Us</h1>
+    <div style={styles.wrapper}>
+      <div style={styles.container}>
+        <h2 style={styles.title}>📞 Contact Us</h2>
+        <input type="text" placeholder="Your Name" style={styles.input} />
+        <input type="email" placeholder="Your Email" style={styles.input} />
+        <textarea placeholder="Your Message" style={styles.textarea}></textarea>
+        <button style={styles.button}>Send Message</button>
 
-      <div className="contact-container">
-        
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <label>
-            Name:
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-          </label>
-
-          <label>
-            Email:
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </label>
-
-          <label>
-            Message:
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            />
-          </label>
-
-          <Button
-            label="Send Message"//text in the button
-            type="submit"
-            onClick={handleSubmit}//triggers form submission
-            style={{ padding: "10px 20px", marginTop: "10px" }}
-          />
-        </form>
-
-        {/* Store Information */}
-        <div className="store-info">
-          <h2>Our Store</h2>
-          <p>Address: 123 Wooden Aura Street, Nairobi, Kenya</p>
-          <p>Phone: +254 112066443</p>
-          <p>Email: info@woodenaura.com</p>
-
-          {/* Embedded Google Map  information*/}
-          <div className="map-container" style={{ marginTop: "20px" }}>
-            <iframe
-              title="Wooden Aura Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.123456!2d36.8219!3d-1.2921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1173!2sNairobi!5e0!3m2!1sen!2ske!4v1697942021234!5m2!1sen!2ske"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div>
+        <h3 style={styles.locationTitle}>📍 Our Location</h3>
+        <h4 style={styles.locationSub}>📍 Amal Plaza – Eastleigh, Nairobi</h4>
+        <iframe
+          src="https://maps.google.com/maps?q=Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          style={styles.map}
+          title="WoodenAura Location"
+        ></iframe>
       </div>
     </div>
   );
-};
+}
 
-export default Contact;                
+export default Contact;

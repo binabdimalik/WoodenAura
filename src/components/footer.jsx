@@ -1,39 +1,44 @@
-// src/components/Footer.jsx
-import React from "react";
-import { Link } from "react-router-dom";
- // Optional: create this for styling
+import React from 'react';
+import { FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 
-const Footer = () => {
+function Footer() {
+  const styles = {
+    footer: {
+      backgroundColor: '#D2691E', // chocolate brown
+      color: '#fff',
+      padding: '24px',
+      textAlign: 'center',
+      fontSize: '15px',
+      fontFamily: 'Segoe UI, sans-serif',
+      boxShadow: '0 -2px 8px rgba(0,0,0,0.1)',
+      marginTop: '40px'
+    },
+    icon: {
+      margin: '0 8px',
+      color: '#fff',
+      textDecoration: 'none',
+      fontSize: '20px'
+    }
+  };
+
   return (
-    <footer className="footer">
-      <div className="footer-content">
+    <footer style={styles.footer}>
+      <p>© 2025 WoodenAura. All rights reserved.</p>
 
-        {/* Copyright */}
-        <p className="copyright">© 2025 WoodenAura. All rights reserved.</p>
-
-        {/* Quick Links */}
-        <nav className="footer-links">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-        </nav>
-
-        {/* Social Media Icons */}
-        <div className="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-facebook-f" aria-hidden="true"></i>
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-instagram" aria-hidden="true"></i>
-          </a>
-        </div>
-
+      <div>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={styles.icon}>
+          <FaInstagram/>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" style={styles.icon}>
+          <FaTwitter/>
+        </a>
+        <a href="https://linkedIn.com" target="_blank" rel="noopener noreferrer" style={styles.icon}>
+        </a>
+          <FaLinkedin/>
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;

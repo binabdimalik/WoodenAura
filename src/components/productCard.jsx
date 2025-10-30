@@ -1,62 +1,75 @@
 import React from 'react';
-import Button from './button'; // Reusable button component
-import { useNavigate } from 'react-router-dom'; // For navigation to ProductDetails
+import { useNavigate } from 'react-router-dom';
+import Button from './button';
 
-function ProductCard({ product }) {
-  const navigate = useNavigate();// This lets us change the page using code, like when someone clicks a button
+function ProductCard({ product, onAddToCart }) {
+  const navigate = useNavigate();
 
-  // Function to handle "View Details" button click
-  const handleViewDetails = () => {
-    // Navigate to the product details page using the product ID
-    navigate(`/products/${product.id}`);
+  const styles = {
+    card: {
+      background: '#FFF8F0', // soft off-white wood tone
+      borderRadius: '12px',
+      boxShadow: '0 6px 16px rgba(0,0,0,0.1)',
+      padding: '24px',
+      textAlign: 'center',
+      fontFamily: 'Segoe UI, sans-serif',
+      transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+      maxWidth: '320px',
+      margin: 'auto',
+      cursor: 'pointer',
+      border: '1px solid #D2691E'
+    },
+    cardHover: {
+      transform: 'scale(1.02)',
+      boxShadow: '0 8px 20px rgba(0,0,0,0.15)'
+    },
+    image: {
+      width: '100%',
+      height: '200px',
+      objectFit: 'cover',
+      borderRadius: '10px',
+      marginBottom: '12px'
+    },
+    name: {
+      fontSize: '20px',
+      fontWeight: '600',
+      margin: '12px 0',
+      color: '#D2691E' // chocolate brown
+    },
+    price: {
+      fontSize: '16px',
+      color: 'black', // gold
+      marginBottom: '16px'
+    },
+    buttonGroup: {
+      display: 'flex',
+      justifyContent: 'center',
+      gap: '12px',
+      flexWrap: 'wrap'
+    }
   };
 
+  const [isHovered, setIsHovered] = React.useState(false);
+
+  const combinedCardStyle = isHovered
+    ? { ...styles.card, ...styles.cardHover }
+    : styles.card;
+
   return (
-    <div style={styles.card}>
-      {/* Product image */}
-      <img
-        src={product.image}
-        alt={product.name}
-        style={styles.image}
-      />
-
-      {/* Product name */}
+    <div
+      style={combinedCardStyle}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <img src={product.image} alt={product.name} style={styles.image} />
       <h3 style={styles.name}>{product.name}</h3>
-
-      {/* Product price */}
-      <p style={styles.price}>Ksh {product.price.toLocaleString()}</p>
-
-      {/* View Details button */}
-      <Button label="View Details" onClick={handleViewDetails} />
+      <p style={styles.price}>Ksh {product.price?.toLocaleString()}</p>
+      <div style={styles.buttonGroup}>
+        <Button label="View Details" onClick={() => navigate(`/products/${product.id}`)} />
+        {onAddToCart && <Button label="Add to Cart" onClick={onAddToCart} />}
+      </div>
     </div>
   );
 }
-
-// Inline styles for layout and design
-const styles = {
-  card: {
-    border: '1px solid #ddd',
-    borderRadius: '8px',
-    padding: '16px',
-    textAlign: 'center',
-    boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
-    backgroundColor: '#fff',
-  },
-  image: {
-    width: '100%',
-    height: '180px',
-    objectFit: 'cover',
-    borderRadius: '6px',
-  },
-  name: {
-    fontSize: '18px',
-    margin: '12px 0 6px',
-  },
-  price: {
-    fontSize: '16px',
-    color: '#444',
-    marginBottom: '12px',
-  },
-};
 
 export default ProductCard;

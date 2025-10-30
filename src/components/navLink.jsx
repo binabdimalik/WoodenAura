@@ -1,17 +1,33 @@
-import { NavLink as RouterLink } from "react-router-dom";  // this imports NavLink from React Router library
+import React from 'react';
+import { NavLink as RouterNavLink } from 'react-router-dom';
 
-function navLink({ path, label}) {
+function NavLink({ path, label }) {
+  const baseStyle = {
+    margin: '0 12px',
+    textDecoration: 'none',
+    fontWeight: '500',
+    color: '#4B3F2F', // deep walnut
+    fontFamily: 'Segoe UI, sans-serif',
+    fontSize: '16px',
+    paddingBottom: '4px',
+    transition: 'color 0.3s ease, border-bottom 0.3s ease'
+  };
+
+  const activeStyle = {
+    ...baseStyle,
+    color: '#D2691E', // chocolate brown
+    fontWeight: '600',
+    borderBottom: '2px solid #FFA500' // warm orange underline
+  };
+
   return (
-    <RouterLink to={path} style={({ isActive }) => ({
-        fontWeight: isActive ? 'bold' : 'normal',
-        color: isActive ? '#12fc87ff' : '#333',
-        margin: '10px'
-    })}
+    <RouterNavLink
+      to={path}
+      style={({ isActive }) => (isActive ? activeStyle : baseStyle)}
     >
-        {label}
-    </RouterLink>
+      {label}
+    </RouterNavLink>
   );
 }
 
-export default navLink;
-
+export default NavLink;
